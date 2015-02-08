@@ -7,7 +7,7 @@ tagline: (or at least writing about it)
     
     author :
       name : {{site.author.name}}
-      
+      email : {{site.author.email}}
       github : {{site.author.github}}
       twitter : {{site.author.twitter}}
 
