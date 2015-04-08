@@ -15,7 +15,7 @@ I'll also be posting the odd troubleshooting tip when I come across particularly
 
 > A journey of a thousand miles begins with a single step
 
-So here's to writing more and learning some markdown ASAP.
+So here's to writing more and learning some markdown ASAP. (Although this post itself is step 1).
 
 ###Links
 Comic image thanks to [Commit Strip](http://www.commitstrip.com/en/2014/11/25/west-side-project-story/)
