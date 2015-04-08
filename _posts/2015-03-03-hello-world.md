@@ -22,4 +22,4 @@ So here's to writing more and learning some markdown ASAP. (Although this post i
 ###Links
 Comic image thanks to [Commit Strip](http://www.commitstrip.com/en/2014/11/25/west-side-project-story/)
 
-[1]: {{ site.url }}/assets/Strip-Side-project-650-finalenglish.jpg
+[1]: {{ site.url }}/assets/201503/Strip-Side-project-650-finalenglish.jpg
