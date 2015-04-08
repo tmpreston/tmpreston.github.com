@@ -11,7 +11,7 @@ So in my ongoing quest to become a better developer I've decided I should be rea
 
 The best way to sum up my participation in side projects.... ![The side projects experience!][1]
 
-This isn't likely to change but I'll also be taking the time to upload some of these experiments/side projects to [github](http://www.github.com) and hope that someone else can benefit from them too.
+This isn't likely to change but I'll be taking the time to upload some of these experiments/side projects to [github](http://www.github.com) (learning more git along the way) and hope that someone else can benefit from them too.
 
 I'll also be posting the odd troubleshooting tip when I come across particularly annoying or hard to track down issues.  Progress is likely to be slow initially due the arrival of son 1.0 but...
 
