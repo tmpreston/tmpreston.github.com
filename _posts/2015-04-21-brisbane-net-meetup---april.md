@@ -12,7 +12,9 @@ The talk covered a brief walk down memory lane including screenshots of each of 
 
 There was a brief look at the impressive [App Insights][4] which sadly doesn't have an easy binding for WinForms meaning it may be some time before I'll get to use it.
 
-Great relaxed atmosphere as usual and while the talk pointed out a few things that aren't quite going to make it into the initial release we only covered half the topics.  I'll be looking forward to next month and ASP.Net + .NET Core changes (provided son 1.0 doesn't require my supervision).  Should also try and remember to thank [Paul][5] or someone from [Octopus][6] as the free pizza is a life saver after missing lunch.
+Great relaxed atmosphere as usual and while the talk pointed out a few things that aren't quite going to make it into the initial release we only covered half the topics.  I'll be looking forward to next month and ASP.Net + .NET Core changes (provided son 1.0 doesn't require my supervision).
+
+I'll also try and remember to thank [Paul][5] or someone from [Octopus][6] as the free pizza is a life saver after missing lunch.
 
 ###PSA
 Removing all caps can be achived by posting the following in Powershell or follow the original instructions on [stackoverflow][3].
