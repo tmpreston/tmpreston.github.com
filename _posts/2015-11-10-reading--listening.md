@@ -49,5 +49,5 @@ Creating transcripts from audio recently came up in a Xamarin application being 
 
 [myg1]: https://github.com/tmpreston/BingVoiceTranscription
 
-[1i]: {{ site.url }}/assets/201511/01_SON10.png
+[1i]: {{site.url}}/assets/201511/01_SON10.png
 [2i]: {{site.url}}/assets/201511/02_SB.png
