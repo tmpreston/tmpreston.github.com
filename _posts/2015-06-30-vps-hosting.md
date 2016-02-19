@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: []
 ---
-{% include JB/setup %}
+
 Before hosting here on the awesome [GitHub Pages][1], I contemplated setting up a VPS server.  One of my first choices, [Digital Ocean][2] recently sent me an offer for a free T-shirt if I set up a _droplet_ and answered some survey questions.  
 
 I haven't gotten a free T-shirt since my initial take on [Xamarin][4], so I decided to see how hard it would be to setup [Jekyll][3] on a clean VPS.

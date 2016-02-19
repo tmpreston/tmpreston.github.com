@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: []
 ---
-{% include JB/setup %}
+
 #Excuses
 I haven't had nearly as much free time recently due to the feature creep of son 1.0
 ![1i]

@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: []
 ---
-{% include JB/setup %}
+
 
 So in my ongoing quest to become a better developer I've decided I should be reading less and doing more.  Reading blogs has helped improved both my code and general development practices but ultimately I'm going to learn more by trying things out for myself.
 

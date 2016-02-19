@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: []
 ---
-{% include JB/setup %}
+
 This month's [.Net  Meetup][1] was all the new things to see in Visual Studio 2015 and ALM 2015 - [Adam Cogan][2]
 
 The talk covered a brief walk down memory lane including screenshots of each of the versions of Visual Studio since 2002.  Quite amazing to see exactly how much has changed.  No real discussion on how stability has greatly improved but some highly amusing discussions regarding the dreaded ALL CAPS MENUS![1i].
