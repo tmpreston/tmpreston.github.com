@@ -1038,7 +1038,8 @@ pre {
 	pre code {
 		padding: 0;
 		background: none;
-		border: none; }
+		border: none;
+		max-width: 95%; }
 
 .date,
 .time,
@@ -1061,6 +1062,9 @@ pre {
 	margin: 0;
 	font-size: .9em;
 	color: #999999; }
+
+.excerpt img {
+	max-width: 95%; }
 
 .intro {
 	font-family: "Roboto Slab", serif;
