@@ -16,14 +16,14 @@ Great relaxed atmosphere as usual and while the talk pointed out a few things th
 
 I'll also try and remember to thank [Paul][5] or someone from [Octopus][6] as the free pizza is a life saver after missing lunch.
 
-###PSA
+### PSA
 Removing all caps can be achived by posting the following in Powershell or follow the original instructions on [stackoverflow][3].
 
-####VS2012
+#### VS2012
 
     Set-ItemProperty -Path HKCU:\Software\Microsoft\VisualStudio\11.0\General -Name SuppressUppercaseConversion -Type DWord -Value 1
 
-####VS2013
+#### VS2013
     Set-ItemProperty -Path HKCU:\Software\Microsoft\VisualStudio\12.0\General -Name SuppressUppercaseConversion -Type DWord -Value 1
 	
 There's also a menu option in VS2013 Update 3 if you've updated already.

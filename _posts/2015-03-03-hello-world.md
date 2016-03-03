@@ -19,7 +19,7 @@ I'll also be posting the odd troubleshooting tip when I come across particularly
 
 So here's to writing more and learning some markdown ASAP. (Although this post itself is step 1).
 
-###Links
+### Links
 Comic image thanks to [Commit Strip](http://www.commitstrip.com/en/2014/11/25/west-side-project-story/)
 
 [1]: {{ site.url }}/assets/201503/Strip-Side-project-650-finalenglish.jpg

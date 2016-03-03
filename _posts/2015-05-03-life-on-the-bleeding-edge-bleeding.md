@@ -9,14 +9,14 @@ tags: []
 
 ![1i] 
 
-###The start
+### The start
 Exciting times at the moment with the release of the RC for Visual Studio 2015 Community (& Enterprise Editions).  Since I'm normally technically curious I thought I'd [download][1] and have a look.  Obviously the first step I took was to run 
 
     vs_community.exe /layout
 
 via the commandline to allow downloading the complete installer (in case I want to re-install it later).  A few hours later in the morning before work I decided to kick off the install only to find out I did not have the required **25GB** free space on my aging 120GB SSD.
 
-###The unnecessary but totally justifiable shopping trip...
+### The unnecessary but totally justifiable shopping trip...
 My free space problem was easily solved by a short trip to [Umart][2] to purchase a shiny new [Crucial MX100 256GB SSD][3a] 
 
 ![3b]
@@ -29,7 +29,7 @@ I completed my initial goal: Install Visual Studio 2015 Community.
 
 ![3i]
 
-###Scope creep
+### Scope creep
 
  
 >Technology... is a queer thing. It brings you great gifts with one hand, and it stabs you in the back with the other.
@@ -45,7 +45,7 @@ Turning once again to my bootable USB stick I attempted to run windows recovery.
 
 Using the USB to enter the console and force a safe mode start up allowed me to create a Windows 8 USB stick to repair the original install.  Some hours later and I've recovered my original windows installation.  At this point I've decided maybe I'll just use my old SSD for some games / programming projects. (At least untill the next major Windows 10 release is available.  RC can't be that far away).
 
-###Quitting while I'm ahead
+### Quitting while I'm ahead
 So for now I'll look into some of the new shininess that VS 2015 brings to windows.  I've got a draft post about [Telerik AppBuilder][7] so I'll maybe finish that off next and then compare it to the new [Cordova][8] support now available through VS 2015.
 
 [1i]: {{ site.url }}/assets/201505/03_01_DownloadAvailable.png
