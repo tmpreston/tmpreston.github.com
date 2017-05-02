@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Restarting Tentacle"
+description: ""
+category: 
+tags: [octopus]
+---
+
+Short post this time.  I was reviewing the newsletter for [Ocotopus Deploy][1] and came across an article on [automatically restarting Octopus Tentacle services][2].
+
+I liked the idea but as part of my ***automate all the things*** preference at the moment I thought it should be possible to do this without getting an GUI involved.  Fortunately this is easily possible.  Start a console/cmd session with suitable Administrator rights and type the following:
+
+    sc failure "OctopusDeploy Tentacle" reset=0 actions= restart/0/restart/0/restart/0
+
+This happily set the first / second / subsequent failure actions.
+![1i] 
+
+    sc config "OctopusDeploy Tentacle" start= delayed-automate
+
+To set the startup to 'Automatic (Delayed Start)'
+![2i]
+
+Hopefully this helps someone and/or makes me internet famous if it hits the [Octopus Deploy][1] newsletter!  I might even check how hard it is to use the Ocotopus [script console][3] to run it.
+
+[1]: https://octopus.com/
+[2]: https://thaddparker.wordpress.com/2017/04/04/how-to-update-octopus-deploy-tentacle-to-restart-automatically/?__s=kv5pr8errbcsurcyn9np
+[3]: https://octopus.com/docs/administration/script-console
+
+[1i]: {{ site.url }}/assets/201705/0001_scfailure.png
+[2i]: {{ site.url }}/assets/201705/0002_scconfig.png
