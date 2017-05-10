@@ -22,6 +22,21 @@ To set the startup to 'Automatic (Delayed Start)'
 
 Hopefully this helps someone and/or makes me internet famous if it hits the [Octopus Deploy][1] newsletter!  I might even check how hard it is to use the Ocotopus [script console][3] to run it.
 
+***Update***
+Script console worked well.  Just used the following powershell to update a bunch of tentacles.
+```Powershell
+#Enable automatic recovery of *Tentacle* services
+$TentaclesServices = Get-Service | Where-Object {$_.name -like '*Tentacle*'}
+foreach($Tentacle in $TentaclesServices) {
+    Write-Host Update serivce options for : $Tentacle.Name
+    Write-Host `tDelayed start...
+    sc.exe config $Tentacle.Name start= delayed-auto
+    Write-Host `tRecovery options...
+    sc.exe failure $Tentacle.Name reset=0 actions= restart/0/restart/0/restart/0
+    Write-Host 'Complete'
+}
+```
+
 [1]: https://octopus.com/
 [2]: https://thaddparker.wordpress.com/2017/04/04/how-to-update-octopus-deploy-tentacle-to-restart-automatically/?__s=kv5pr8errbcsurcyn9np
 [3]: https://octopus.com/docs/administration/script-console
