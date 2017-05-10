@@ -15,7 +15,7 @@ I liked the idea but as part of my ***automate all the things*** preference at t
 This happily set the first / second / subsequent failure actions.
 ![1i] 
 
-    sc config "OctopusDeploy Tentacle" start= delayed-automate
+    sc config "OctopusDeploy Tentacle" start= delayed-auto
 
 To set the startup to 'Automatic (Delayed Start)'
 ![2i]
