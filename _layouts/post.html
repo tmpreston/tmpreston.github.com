@@ -12,6 +12,14 @@ layout: default
   <section class="post">
     {{ content }}
   </section>
+  
+   <div class="actions" >
+		<a href="https://github.com/tmpreston/tmpreston.github.com/blob/master/{{ page.path }}" title="Edit on GitHub" target="_blank" >
+			<i class="icon icon-social-github"></i>
+			<span class="label">Edit on GitHub</span>
+		</a>
+	</div>
+  
   {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
 </article>
 {% if page.comments != false %}{% include disqus.html %}{% endif %}
