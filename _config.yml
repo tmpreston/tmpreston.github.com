@@ -4,7 +4,8 @@ description: '...or at least writing about it'
 url: 'http://blog.uitlanders.com'
 baseurl: '/'
 google_analytics: 'UA-59477598-1'
-isqus_shortname: 'uitlanders'
+disqus_shortname: 'uitlanders'
+comments: true
 
 author:
  name: 'Tim Preston'
