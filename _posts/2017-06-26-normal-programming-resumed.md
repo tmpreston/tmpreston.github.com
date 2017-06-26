@@ -6,7 +6,7 @@ category:
 tags: []
 ---
 
-[1i]
+![1i]
 
 ### Normal programming...
 
