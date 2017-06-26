@@ -12,8 +12,6 @@ I haven't had nearly as much free time recently due to the feature creep of son 
 
 Time well spent however I haven't been spending much time **doing** which was my main goal for the year.  I've kept up with the usual blogs and tech news ( and decided I should really find a way to make the crazy amount of cash required to purchase a [Surface Book][1]).
 
-![2i]
-
 #Doing
 For quite a while I've been hoping to do some experiments/side projects exploring [Akka.NET][2].  There was an interview with one of the creators on [Hansel Minutes 472][3].  I don't have headphones for the train (the one reliable block of free time I have) so I've been patiently waiting for the transcription to be made available.  Six months patient even.  
 
@@ -50,4 +48,3 @@ Creating transcripts from audio recently came up in a Xamarin application being 
 [myg1]: https://github.com/tmpreston/BingVoiceTranscription
 
 [1i]: {{site.url}}/assets/201511/01_SON10.png
-[2i]: {{site.url}}/assets/201511/02_SB.png
