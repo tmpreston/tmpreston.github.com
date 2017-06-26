@@ -6,7 +6,7 @@ category:
 tags: []
 ---
 
-[![To the post]({{ site.url }}/2017/06/26/normal-programming-resumed)]({{ site.url }}/assets/201706/001_onair.jpg)
+[1i]
 
 ### Normal programming...
 
