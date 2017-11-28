@@ -1,6 +1,9 @@
 ---
 layout: post
-title: App store not friends with IPv6
+title: "App store not friends with IPv6"
+description: ""
+category: 
+tags: []
 ---
 I recently had some issues trying to download a game [Shadows Of War][1] from the Microsoft Store.  Despite a number of google searches including reddit threads, official forums etc, there didn't seem to be any recommended solution/s (Some places suggested re-installing windows but I wasn't quite up for that).
 
