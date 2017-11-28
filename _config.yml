@@ -1,8 +1,8 @@
 # Site settings
 title: 'Learn by doing!'
 description: '...or at least writing about it'
-url: 'http://blog.uitlanders.com'
-baseurl: '/'
+url: 'https://blog.uitlanders.com'
+baseurl: 'https://blog.uitlanders.com/'
 google_analytics: 'UA-59477598-1'
 disqus_shortname: 'uitlanders'
 comments: true
