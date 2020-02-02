@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>octopus on Learn by doing!</title>
+    <link>https://blog.uitlanders.com/tags/octopus/</link>
+    <description>Recent content in octopus on Learn by doing!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>©2015-{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 02 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.uitlanders.com/tags/octopus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Restarting Tentacle</title>
+      <link>https://blog.uitlanders.com/posts/2017-05-02-restarting-tentacle/</link>
+      <pubDate>Tue, 02 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.uitlanders.com/posts/2017-05-02-restarting-tentacle/</guid>
+      <description>Short post this time. I was reviewing the newsletter for Ocotopus Deploy and came across an article on automatically restarting Octopus Tentacle services.
+I liked the idea but as part of my automate all the things preference at the moment I thought it should be possible to do this without getting an GUI involved. Fortunately this is easily possible. Start a console/cmd session with suitable Administrator rights and type the following:
+sc failure &amp;quot;OctopusDeploy Tentacle&amp;quot; reset=0 actions= restart/0/restart/0/restart/0 This happily set the first / second / subsequent failure actions.
+sc config &amp;quot;OctopusDeploy Tentacle&amp;quot; start= delayed-auto To set the startup to &amp;lsquo;Automatic (Delayed Start)&amp;rsquo;
+Hopefully this helps someone and/or makes me internet famous if it hits the Octopus Deploy newsletter!</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,3 +1,5 @@
+publishDir = "docs"
+
 baseURL = "https://blog.uitlanders.com/" # The URL of your site.
 title = "Learn by doing!" # Title of your site
 theme = "zzo" # Name of Zzo theme folder in `themes/`.
