@@ -1,154 +1,160 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Learn by doing!</title>
     <link>https://blog.uitlanders.com/</link>
     <description>Recent content on Learn by doing!</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>tim.preston@uitlanders.com (tmpreston)</managingEditor>
+    <webMaster>tim.preston@uitlanders.com (tmpreston)</webMaster>
     <copyright>©2015-{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 02 Feb 2020 21:50:25 +1000</lastBuildDate>
     
-	<atom:link href="https://blog.uitlanders.com/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://blog.uitlanders.com/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>Try Hugo!</title>
-      <link>https://blog.uitlanders.com/posts/2020-02-02-try-hugo/</link>
-      <pubDate>Sun, 02 Feb 2020 21:50:25 +1000</pubDate>
+    
       
-      <guid>https://blog.uitlanders.com/posts/2020-02-02-try-hugo/</guid>
-      <description>It&amp;rsquo;s been a while (and another child) since my last post. The couple of times I went to post something I seemed to run into problems with running jekyll (previous blog site generator) on my local PC.
+      <item>
+        <title>Try Hugo!</title>
+        <link>https://blog.uitlanders.com/posts/2020-02-02-try-hugo/</link>
+        <pubDate>Sun, 02 Feb 2020 21:50:25 +1000</pubDate>
+        <author>tim.preston@uitlanders.com (tmpreston)</author>
+        <guid>https://blog.uitlanders.com/posts/2020-02-02-try-hugo/</guid>
+        <description>It&amp;rsquo;s been a while (and another child) since my last post. The couple of times I went to post something I seemed to run into problems with running jekyll (previous blog site generator) on my local PC.
 I&amp;rsquo;ve been using Hugo / docdock at work for documentation generation and decided to make the switch on the blog as well. Haven&amp;rsquo;t had anywhere near the same number of issues/quirks and installation just requires a single binary (or choco install hugo-extended in reality).</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://blog.uitlanders.com/contact/</link>
-      <pubDate>Sun, 02 Feb 2020 20:41:08 +1000</pubDate>
+      </item>
       
-      <guid>https://blog.uitlanders.com/contact/</guid>
-      <description>Contact via email (or possibly twitter).</description>
-    </item>
-    
-    <item>
-      <title>App store not friends with IPv6</title>
-      <link>https://blog.uitlanders.com/posts/2017-11-25-app-store-not-friends-with-ipv6/</link>
-      <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
+      <item>
+        <title>Contact</title>
+        <link>https://blog.uitlanders.com/contact/</link>
+        <pubDate>Sun, 02 Feb 2020 20:41:08 +1000</pubDate>
+        <author>tim.preston@uitlanders.com (tmpreston)</author>
+        <guid>https://blog.uitlanders.com/contact/</guid>
+        <description>Contact via email (or possibly twitter).</description>
+      </item>
       
-      <guid>https://blog.uitlanders.com/posts/2017-11-25-app-store-not-friends-with-ipv6/</guid>
-      <description>I recently had some issues trying to download a game Shadows Of War from the Microsoft Store. Despite a number of google searches including reddit threads, official forums etc, there didn&amp;rsquo;t seem to be any recommended solution/s (Some places suggested re-installing windows but I wasn&amp;rsquo;t quite up for that).
+      <item>
+        <title>App store not friends with IPv6</title>
+        <link>https://blog.uitlanders.com/posts/2017-11-25-app-store-not-friends-with-ipv6/</link>
+        <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
+        <author>tim.preston@uitlanders.com (tmpreston)</author>
+        <guid>https://blog.uitlanders.com/posts/2017-11-25-app-store-not-friends-with-ipv6/</guid>
+        <description>I recently had some issues trying to download a game Shadows Of War from the Microsoft Store. Despite a number of google searches including reddit threads, official forums etc, there didn&amp;rsquo;t seem to be any recommended solution/s (Some places suggested re-installing windows but I wasn&amp;rsquo;t quite up for that).
 I tried looking into task manager and then resource monitor and noticed that store application was making some IPv6 connections but no data was being transferred. I disabled IPv6 and downloading started flawlessly.
 This may have just been co-incidence but maybe this post can help someone.
  Windows 10 / Version 1709 / OS Build 16299.19 *  </description>
-    </item>
-    
-    <item>
-      <title>Normal programming resumes...</title>
-      <link>https://blog.uitlanders.com/posts/2017-06-26-normal-programming-resumed/</link>
-      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
+      </item>
       
-      <guid>https://blog.uitlanders.com/posts/2017-06-26-normal-programming-resumed/</guid>
-      <description>Normal programming&amp;hellip; Despite my best intentions I haven&amp;rsquo;t posted recently. What I did do was test the &amp;lsquo;Reset this PC&amp;rsquo; functionality built into windows 10.
+      <item>
+        <title>Normal programming resumes...</title>
+        <link>https://blog.uitlanders.com/posts/2017-06-26-normal-programming-resumed/</link>
+        <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
+        <author>tim.preston@uitlanders.com (tmpreston)</author>
+        <guid>https://blog.uitlanders.com/posts/2017-06-26-normal-programming-resumed/</guid>
+        <description>Normal programming&amp;hellip; Despite my best intentions I haven&amp;rsquo;t posted recently. What I did do was test the &amp;lsquo;Reset this PC&amp;rsquo; functionality built into windows 10.
 I used to re-install windows as a matter of course every six months or so but haven&amp;rsquo;t done so since free time became so limited. I started
 to have issues with my browser (and http traffic in general) where it would just stop working. SSH and other TCP services were fine.
 I removed anti-virus/firewalls and still nothing.
 So the &amp;lsquo;Reset this PC&amp;rsquo; function in windows 10 works well. What I didn&amp;rsquo;t count on was the fact that I&amp;rsquo;d installed/tweaked things for quite
 a while getting Jekyll to play nice on windows. In the end I decided to try the new Bash on Ubuntu (on Windows).</description>
-    </item>
-    
-    <item>
-      <title>Restarting Tentacle</title>
-      <link>https://blog.uitlanders.com/posts/2017-05-02-restarting-tentacle/</link>
-      <pubDate>Tue, 02 May 2017 00:00:00 +0000</pubDate>
+      </item>
       
-      <guid>https://blog.uitlanders.com/posts/2017-05-02-restarting-tentacle/</guid>
-      <description>Short post this time. I was reviewing the newsletter for Ocotopus Deploy and came across an article on automatically restarting Octopus Tentacle services.
+      <item>
+        <title>Restarting Tentacle</title>
+        <link>https://blog.uitlanders.com/posts/2017-05-02-restarting-tentacle/</link>
+        <pubDate>Tue, 02 May 2017 00:00:00 +0000</pubDate>
+        <author>tim.preston@uitlanders.com (tmpreston)</author>
+        <guid>https://blog.uitlanders.com/posts/2017-05-02-restarting-tentacle/</guid>
+        <description>Short post this time. I was reviewing the newsletter for Ocotopus Deploy and came across an article on automatically restarting Octopus Tentacle services.
 I liked the idea but as part of my automate all the things preference at the moment I thought it should be possible to do this without getting an GUI involved. Fortunately this is easily possible. Start a console/cmd session with suitable Administrator rights and type the following:
 sc failure &amp;quot;OctopusDeploy Tentacle&amp;quot; reset=0 actions= restart/0/restart/0/restart/0 This happily set the first / second / subsequent failure actions.
 sc config &amp;quot;OctopusDeploy Tentacle&amp;quot; start= delayed-auto To set the startup to &amp;lsquo;Automatic (Delayed Start)&amp;rsquo;
 Hopefully this helps someone and/or makes me internet famous if it hits the Octopus Deploy newsletter!</description>
-    </item>
-    
-    <item>
-      <title>You have chosen...</title>
-      <link>https://blog.uitlanders.com/posts/2016-09-05-you-have-chosen/</link>
-      <pubDate>Mon, 05 Sep 2016 00:00:00 +0000</pubDate>
+      </item>
       
-      <guid>https://blog.uitlanders.com/posts/2016-09-05-you-have-chosen/</guid>
-      <description>It&amp;rsquo;s been an interesting year at work. I&amp;rsquo;ve been hard at work on creating a cloud based offering of our application. This wasn&amp;rsquo;t something on the roadmap as the application was a thick client built on .NET in WinForms. Recently cloud providers have been trying to ensure that they&amp;rsquo;re able to migrate any and all software and so we ended up investigating a Azure RemoteApp.
+      <item>
+        <title>You have chosen...</title>
+        <link>https://blog.uitlanders.com/posts/2016-09-05-you-have-chosen/</link>
+        <pubDate>Mon, 05 Sep 2016 00:00:00 +0000</pubDate>
+        <author>tim.preston@uitlanders.com (tmpreston)</author>
+        <guid>https://blog.uitlanders.com/posts/2016-09-05-you-have-chosen/</guid>
+        <description>It&amp;rsquo;s been an interesting year at work. I&amp;rsquo;ve been hard at work on creating a cloud based offering of our application. This wasn&amp;rsquo;t something on the roadmap as the application was a thick client built on .NET in WinForms. Recently cloud providers have been trying to ensure that they&amp;rsquo;re able to migrate any and all software and so we ended up investigating a Azure RemoteApp.
 RemoteApp allowed us to take an application built for LAN/WAN deployment and without needing to make huge changes provide a service with very low initial costs (no expensive servers, no windows licensing &amp;amp; no SQL licensing). Having a Mac OS X, iOS and Android applications proved very popular. The multiple options to accessing data (including the preview of the HTML5 client) was great and it&amp;rsquo;s quite incredible seeing an application originally written in .</description>
-    </item>
-    
-    <item>
-      <title>DDD Brisbane 0x5</title>
-      <link>https://blog.uitlanders.com/posts/2016-01-06-ddd15/</link>
-      <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
+      </item>
       
-      <guid>https://blog.uitlanders.com/posts/2016-01-06-ddd15/</guid>
-      <description>Another year another DDD. The 2015 event was great and lives up to the by developers for developers mantra. This year was just as relaxed and amusing as last year. Two sessions stood for me and I suspect I&amp;rsquo;ll investigate a bit further:
+      <item>
+        <title>DDD Brisbane 0x5</title>
+        <link>https://blog.uitlanders.com/posts/2016-01-06-ddd15/</link>
+        <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
+        <author>tim.preston@uitlanders.com (tmpreston)</author>
+        <guid>https://blog.uitlanders.com/posts/2016-01-06-ddd15/</guid>
+        <description>Another year another DDD. The 2015 event was great and lives up to the by developers for developers mantra. This year was just as relaxed and amusing as last year. Two sessions stood for me and I suspect I&amp;rsquo;ll investigate a bit further:
 Parsing Text: the Programming Superpower You Need at Your Fingertips( Nicholas Blumhardt | [@nblumhardt][2] |  )After reading the Aggregate Queries in Seq series of blog posts I was definitely intrigued to see how deep this session would go into the Sprache library. A great talk though there was only soo much that could be covered in the hour.
 Introduction to Akka.Net( Jaime | [@jaimefebres][5] )This talk mainly covered quite introductory concepts for Akka.</description>
-    </item>
-    
-    <item>
-      <title>Reading &gt;&gt; Listening</title>
-      <link>https://blog.uitlanders.com/posts/2015-11-10-reading-listening/</link>
-      <pubDate>Tue, 10 Nov 2015 00:00:00 +0000</pubDate>
+      </item>
       
-      <guid>https://blog.uitlanders.com/posts/2015-11-10-reading-listening/</guid>
-      <description>#Excuses
+      <item>
+        <title>Reading &gt;&gt; Listening</title>
+        <link>https://blog.uitlanders.com/posts/2015-11-10-reading-listening/</link>
+        <pubDate>Tue, 10 Nov 2015 00:00:00 +0000</pubDate>
+        <author>tim.preston@uitlanders.com (tmpreston)</author>
+        <guid>https://blog.uitlanders.com/posts/2015-11-10-reading-listening/</guid>
+        <description>#Excuses
 I haven&amp;rsquo;t had nearly as much free time recently due to the feature creep of son 1.0
 Time well spent however I haven&amp;rsquo;t been spending much time doing which was my main goal for the year. I&amp;rsquo;ve kept up with the usual blogs and tech news ( and decided I should really find a way to make the crazy amount of cash required to purchase a Surface Book).
 #Doing
 For quite a while I&amp;rsquo;ve been hoping to do some experiments/side projects exploring Akka.NET. There was an interview with one of the creators on Hansel Minutes 472. I don&amp;rsquo;t have headphones for the train (the one reliable block of free time I have) so I&amp;rsquo;ve been patiently waiting for the transcription to be made available.</description>
-    </item>
-    
-    <item>
-      <title>VPS Hosting</title>
-      <link>https://blog.uitlanders.com/posts/2015-06-30-vps-hosting/</link>
-      <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
+      </item>
       
-      <guid>https://blog.uitlanders.com/posts/2015-06-30-vps-hosting/</guid>
-      <description>Before hosting here on the awesome GitHub Pages, I contemplated setting up a VPS server. One of my first choices, Digital Ocean recently sent me an offer for a free T-shirt if I set up a droplet and answered some survey questions.
+      <item>
+        <title>VPS Hosting</title>
+        <link>https://blog.uitlanders.com/posts/2015-06-30-vps-hosting/</link>
+        <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
+        <author>tim.preston@uitlanders.com (tmpreston)</author>
+        <guid>https://blog.uitlanders.com/posts/2015-06-30-vps-hosting/</guid>
+        <description>Before hosting here on the awesome GitHub Pages, I contemplated setting up a VPS server. One of my first choices, Digital Ocean recently sent me an offer for a free T-shirt if I set up a droplet and answered some survey questions.
 I haven&amp;rsquo;t gotten a free T-shirt since my initial take on Xamarin, so I decided to see how hard it would be to setup Jekyll on a clean VPS.
 Initial seutp was easy and the VPS control panel was clean and simple.
 Getting the current blog up just required running a few commands: (and I didn&amp;rsquo;t even need to look them up)
 apt-get install jekyllapt-get install gitgit clone https://github.com/tmpreston/tmpreston.github.com Running jekyll using the inbuilt server (jekyll server &amp;ndash;host=0.</description>
-    </item>
-    
-    <item>
-      <title>Life on the bleeding edge... bleeding</title>
-      <link>https://blog.uitlanders.com/posts/2015-05-03-life-on-the-bleeding-edge-bleeding/</link>
-      <pubDate>Sun, 03 May 2015 00:00:00 +0000</pubDate>
+      </item>
       
-      <guid>https://blog.uitlanders.com/posts/2015-05-03-life-on-the-bleeding-edge-bleeding/</guid>
-      <description>The start Exciting times at the moment with the release of the RC for Visual Studio 2015 Community (&amp;amp; Enterprise Editions). Since I&amp;rsquo;m normally technically curious I thought I&amp;rsquo;d download and have a look. Obviously the first step I took was to run
+      <item>
+        <title>Life on the bleeding edge... bleeding</title>
+        <link>https://blog.uitlanders.com/posts/2015-05-03-life-on-the-bleeding-edge-bleeding/</link>
+        <pubDate>Sun, 03 May 2015 00:00:00 +0000</pubDate>
+        <author>tim.preston@uitlanders.com (tmpreston)</author>
+        <guid>https://blog.uitlanders.com/posts/2015-05-03-life-on-the-bleeding-edge-bleeding/</guid>
+        <description>The start Exciting times at the moment with the release of the RC for Visual Studio 2015 Community (&amp;amp; Enterprise Editions). Since I&amp;rsquo;m normally technically curious I thought I&amp;rsquo;d download and have a look. Obviously the first step I took was to run
 vs_community.exe /layout via the commandline to allow downloading the complete installer (in case I want to re-install it later). A few hours later in the morning before work I decided to kick off the install only to find out I did not have the required 25GB free space on my aging 120GB SSD.
 The unnecessary but totally justifiable shopping trip&amp;hellip; My free space problem was easily solved by a short trip to Umart to purchase a shiny new Crucial MX100 256GB SSD</description>
-    </item>
-    
-    <item>
-      <title>Brisbane .Net Meetup April 2015</title>
-      <link>https://blog.uitlanders.com/posts/2015-04-21-brisbane-net-meetup-april/</link>
-      <pubDate>Tue, 21 Apr 2015 00:00:00 +0000</pubDate>
+      </item>
       
-      <guid>https://blog.uitlanders.com/posts/2015-04-21-brisbane-net-meetup-april/</guid>
-      <description>This month&amp;rsquo;s .Net Meetup was all the new things to see in Visual Studio 2015 and ALM 2015 - Adam Cogan
+      <item>
+        <title>Brisbane .Net Meetup April 2015</title>
+        <link>https://blog.uitlanders.com/posts/2015-04-21-brisbane-net-meetup-april/</link>
+        <pubDate>Tue, 21 Apr 2015 00:00:00 +0000</pubDate>
+        <author>tim.preston@uitlanders.com (tmpreston)</author>
+        <guid>https://blog.uitlanders.com/posts/2015-04-21-brisbane-net-meetup-april/</guid>
+        <description>This month&amp;rsquo;s .Net Meetup was all the new things to see in Visual Studio 2015 and ALM 2015 - Adam Cogan
 The talk covered a brief walk down memory lane including screenshots of each of the versions of Visual Studio since 2002. Quite amazing to see exactly how much has changed. No real discussion on how stability has greatly improved but some highly amusing discussions regarding the dreaded ALL CAPS MENUS.
 There was a brief look at the impressive App Insights which sadly doesn&amp;rsquo;t have an easy binding for WinForms meaning it may be some time before I&amp;rsquo;ll get to use it.
 Great relaxed atmosphere as usual and while the talk pointed out a few things that aren&amp;rsquo;t quite going to make it into the initial release we only covered half the topics.</description>
-    </item>
-    
-    <item>
-      <title>Hello World!</title>
-      <link>https://blog.uitlanders.com/posts/2015-03-03-hello-world/</link>
-      <pubDate>Tue, 03 Mar 2015 00:00:00 +0000</pubDate>
+      </item>
       
-      <guid>https://blog.uitlanders.com/posts/2015-03-03-hello-world/</guid>
-      <description>So in my ongoing quest to become a better developer I&amp;rsquo;ve decided I should be reading less and doing more. Reading blogs has helped improved both my code and general development practices but ultimately I&amp;rsquo;m going to learn more by trying things out for myself.
+      <item>
+        <title>Hello World!</title>
+        <link>https://blog.uitlanders.com/posts/2015-03-03-hello-world/</link>
+        <pubDate>Tue, 03 Mar 2015 00:00:00 +0000</pubDate>
+        <author>tim.preston@uitlanders.com (tmpreston)</author>
+        <guid>https://blog.uitlanders.com/posts/2015-03-03-hello-world/</guid>
+        <description>So in my ongoing quest to become a better developer I&amp;rsquo;ve decided I should be reading less and doing more. Reading blogs has helped improved both my code and general development practices but ultimately I&amp;rsquo;m going to learn more by trying things out for myself.
 In the past my participation in side projects could be easily explained&amp;hellip;. This isn&amp;rsquo;t likely to change but I&amp;rsquo;ll be taking the time to upload some of these experiments/side projects to github (learning more git along the way) and hope that someone else can benefit from them too.
 I&amp;rsquo;ll also be posting the odd troubleshooting tip when I come across particularly annoying or hard to track down issues. Progress is likely to be slow initially due the arrival of son 1.</description>
-    </item>
+      </item>
+      
     
   </channel>
 </rss>

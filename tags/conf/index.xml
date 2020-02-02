@@ -1,26 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>conf on Learn by doing!</title>
     <link>https://blog.uitlanders.com/tags/conf/</link>
     <description>Recent content in conf on Learn by doing!</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>tim.preston@uitlanders.com (tmpreston)</managingEditor>
+    <webMaster>tim.preston@uitlanders.com (tmpreston)</webMaster>
     <copyright>©2015-{year}, All Rights Reserved</copyright>
     <lastBuildDate>Wed, 06 Jan 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://blog.uitlanders.com/tags/conf/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://blog.uitlanders.com/tags/conf/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>DDD Brisbane 0x5</title>
-      <link>https://blog.uitlanders.com/posts/2016-01-06-ddd15/</link>
-      <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
+    
       
-      <guid>https://blog.uitlanders.com/posts/2016-01-06-ddd15/</guid>
-      <description>Another year another DDD. The 2015 event was great and lives up to the by developers for developers mantra. This year was just as relaxed and amusing as last year. Two sessions stood for me and I suspect I&amp;rsquo;ll investigate a bit further:
+      <item>
+        <title>DDD Brisbane 0x5</title>
+        <link>https://blog.uitlanders.com/posts/2016-01-06-ddd15/</link>
+        <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
+        <author>tim.preston@uitlanders.com (tmpreston)</author>
+        <guid>https://blog.uitlanders.com/posts/2016-01-06-ddd15/</guid>
+        <description>Another year another DDD. The 2015 event was great and lives up to the by developers for developers mantra. This year was just as relaxed and amusing as last year. Two sessions stood for me and I suspect I&amp;rsquo;ll investigate a bit further:
 Parsing Text: the Programming Superpower You Need at Your Fingertips( Nicholas Blumhardt | [@nblumhardt][2] |  )After reading the Aggregate Queries in Seq series of blog posts I was definitely intrigued to see how deep this session would go into the Sprache library. A great talk though there was only soo much that could be covered in the hour.
 Introduction to Akka.Net( Jaime | [@jaimefebres][5] )This talk mainly covered quite introductory concepts for Akka.</description>
-    </item>
+      </item>
+      
     
   </channel>
 </rss>
