@@ -9,11 +9,11 @@
     
 
 
-<script src="/js/enquire.min.aa37bdcb743826eecdae5c5d177fc7d6552340f1b4378ffaa9c82b2c6111400b.js"></script>
+<script src="/js/enquire.min.dfb99dee1e029d51d6cfb672d847929890b1585402de17f5ed092edd72a688b4.js"></script>
 
-<script defer src="/js/lazysizes.min.5e11d056075a05065b9c0bfec44084a113fc2976c2952ec804dedb61c7662db9.js"></script>
+<script defer src="/js/lazysizes.min.31dd6a2d3a1ec0f78a8df007535cf23f03aeb5c70f026e6d6a19dac3b3acc340.js"></script>
 
-<script defer src="/js/fuse.min.c4bee9a8d44273d6154fe86006923d4131eb2e8069d8897687137c6f37f553e3.js"></script>
+<script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
 <script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
 
@@ -1161,8 +1161,8 @@ a while getting Jekyll to play nice on windows. In the end I decided to try the 
           
             Short post this time. I was reviewing the newsletter for Ocotopus Deploy and came across an article on automatically restarting Octopus Tentacle services.
 I liked the idea but as part of my automate all the things preference at the moment I thought it should be possible to do this without getting an GUI involved. Fortunately this is easily possible. Start a console/cmd session with suitable Administrator rights and type the following:
-sc failure &quot;OctopusDeploy Tentacle&quot; reset=0 actions= restart/0/restart/0/restart/0 This happily set the first / second / subsequent failure actions.
-sc config &quot;OctopusDeploy Tentacle&quot; start= delayed-auto To set the startup to &lsquo;Automatic (Delayed Start)&rsquo;
+sc failure &quot;OctopusDeploy Tentacle&quot; reset=0 actions= restart/0/restart/0/restart/0  This happily set the first / second / subsequent failure actions.
+sc config &quot;OctopusDeploy Tentacle&quot; start= delayed-auto  To set the startup to &lsquo;Automatic (Delayed Start)&rsquo;
 Hopefully this helps someone and/or makes me internet famous if it hits the Octopus Deploy newsletter!
           
         </div>
@@ -1219,8 +1219,8 @@ RemoteApp allowed us to take an application built for LAN/WAN deployment and wit
         <div class="summary-classic__text p2">
           
             Another year another DDD. The 2015 event was great and lives up to the by developers for developers mantra. This year was just as relaxed and amusing as last year. Two sessions stood for me and I suspect I&rsquo;ll investigate a bit further:
-Parsing Text: the Programming Superpower You Need at Your Fingertips( Nicholas Blumhardt | [@nblumhardt][2] |  )After reading the Aggregate Queries in Seq series of blog posts I was definitely intrigued to see how deep this session would go into the Sprache library. A great talk though there was only soo much that could be covered in the hour.
-Introduction to Akka.Net( Jaime | [@jaimefebres][5] )This talk mainly covered quite introductory concepts for Akka.
+ Parsing Text: the Programming Superpower You Need at Your Fingertips ( Nicholas Blumhardt | [@nblumhardt][2] |  ) After reading the Aggregate Queries in Seq series of blog posts I was definitely intrigued to see how deep this session would go into the Sprache library. A great talk though there was only soo much that could be covered in the hour.
+ Introduction to Akka.Net ( Jaime | [@jaimefebres][5] ) This talk mainly covered quite introductory concepts for Akka.
           
         </div>
       </div>
@@ -1282,7 +1282,7 @@ For quite a while I&rsquo;ve been hoping to do some experiments/side projects ex
 I haven&rsquo;t gotten a free T-shirt since my initial take on Xamarin, so I decided to see how hard it would be to setup Jekyll on a clean VPS.
 Initial seutp was easy and the VPS control panel was clean and simple.
 Getting the current blog up just required running a few commands: (and I didn&rsquo;t even need to look them up)
-apt-get install jekyllapt-get install gitgit clone https://github.com/tmpreston/tmpreston.github.com Running jekyll using the inbuilt server (jekyll server &ndash;host=0.
+apt-get install jekyll apt-get install git git clone https://github.com/tmpreston/tmpreston.github.com  Running jekyll using the inbuilt server (jekyll server &ndash;host=0.
           
         </div>
       </div>
@@ -1310,7 +1310,7 @@ apt-get install jekyllapt-get install gitgit clone https://github.com/tmpresto
         <div class="summary-classic__text p2">
           
             The start Exciting times at the moment with the release of the RC for Visual Studio 2015 Community (&amp; Enterprise Editions). Since I&rsquo;m normally technically curious I thought I&rsquo;d download and have a look. Obviously the first step I took was to run
-vs_community.exe /layout via the commandline to allow downloading the complete installer (in case I want to re-install it later). A few hours later in the morning before work I decided to kick off the install only to find out I did not have the required 25GB free space on my aging 120GB SSD.
+vs_community.exe /layout  via the commandline to allow downloading the complete installer (in case I want to re-install it later). A few hours later in the morning before work I decided to kick off the install only to find out I did not have the required 25GB free space on my aging 120GB SSD.
 The unnecessary but totally justifiable shopping trip&hellip; My free space problem was easily solved by a short trip to Umart to purchase a shiny new Crucial MX100 256GB SSD
           
         </div>

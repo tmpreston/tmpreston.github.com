@@ -69,8 +69,8 @@ a while getting Jekyll to play nice on windows. In the end I decided to try the 
         <guid>https://blog.uitlanders.com/posts/2017-05-02-restarting-tentacle/</guid>
         <description>Short post this time. I was reviewing the newsletter for Ocotopus Deploy and came across an article on automatically restarting Octopus Tentacle services.
 I liked the idea but as part of my automate all the things preference at the moment I thought it should be possible to do this without getting an GUI involved. Fortunately this is easily possible. Start a console/cmd session with suitable Administrator rights and type the following:
-sc failure &amp;quot;OctopusDeploy Tentacle&amp;quot; reset=0 actions= restart/0/restart/0/restart/0 This happily set the first / second / subsequent failure actions.
-sc config &amp;quot;OctopusDeploy Tentacle&amp;quot; start= delayed-auto To set the startup to &amp;lsquo;Automatic (Delayed Start)&amp;rsquo;
+sc failure &amp;quot;OctopusDeploy Tentacle&amp;quot; reset=0 actions= restart/0/restart/0/restart/0  This happily set the first / second / subsequent failure actions.
+sc config &amp;quot;OctopusDeploy Tentacle&amp;quot; start= delayed-auto  To set the startup to &amp;lsquo;Automatic (Delayed Start)&amp;rsquo;
 Hopefully this helps someone and/or makes me internet famous if it hits the Octopus Deploy newsletter!</description>
       </item>
       
@@ -91,8 +91,8 @@ RemoteApp allowed us to take an application built for LAN/WAN deployment and wit
         <author>tim.preston@uitlanders.com (tmpreston)</author>
         <guid>https://blog.uitlanders.com/posts/2016-01-06-ddd15/</guid>
         <description>Another year another DDD. The 2015 event was great and lives up to the by developers for developers mantra. This year was just as relaxed and amusing as last year. Two sessions stood for me and I suspect I&amp;rsquo;ll investigate a bit further:
-Parsing Text: the Programming Superpower You Need at Your Fingertips( Nicholas Blumhardt | [@nblumhardt][2] |  )After reading the Aggregate Queries in Seq series of blog posts I was definitely intrigued to see how deep this session would go into the Sprache library. A great talk though there was only soo much that could be covered in the hour.
-Introduction to Akka.Net( Jaime | [@jaimefebres][5] )This talk mainly covered quite introductory concepts for Akka.</description>
+ Parsing Text: the Programming Superpower You Need at Your Fingertips ( Nicholas Blumhardt | [@nblumhardt][2] |  ) After reading the Aggregate Queries in Seq series of blog posts I was definitely intrigued to see how deep this session would go into the Sprache library. A great talk though there was only soo much that could be covered in the hour.
+ Introduction to Akka.Net ( Jaime | [@jaimefebres][5] ) This talk mainly covered quite introductory concepts for Akka.</description>
       </item>
       
       <item>
@@ -118,7 +118,7 @@ For quite a while I&amp;rsquo;ve been hoping to do some experiments/side project
 I haven&amp;rsquo;t gotten a free T-shirt since my initial take on Xamarin, so I decided to see how hard it would be to setup Jekyll on a clean VPS.
 Initial seutp was easy and the VPS control panel was clean and simple.
 Getting the current blog up just required running a few commands: (and I didn&amp;rsquo;t even need to look them up)
-apt-get install jekyllapt-get install gitgit clone https://github.com/tmpreston/tmpreston.github.com Running jekyll using the inbuilt server (jekyll server &amp;ndash;host=0.</description>
+apt-get install jekyll apt-get install git git clone https://github.com/tmpreston/tmpreston.github.com  Running jekyll using the inbuilt server (jekyll server &amp;ndash;host=0.</description>
       </item>
       
       <item>
@@ -128,7 +128,7 @@ apt-get install jekyllapt-get install gitgit clone https://github.com/tmpresto
         <author>tim.preston@uitlanders.com (tmpreston)</author>
         <guid>https://blog.uitlanders.com/posts/2015-05-03-life-on-the-bleeding-edge-bleeding/</guid>
         <description>The start Exciting times at the moment with the release of the RC for Visual Studio 2015 Community (&amp;amp; Enterprise Editions). Since I&amp;rsquo;m normally technically curious I thought I&amp;rsquo;d download and have a look. Obviously the first step I took was to run
-vs_community.exe /layout via the commandline to allow downloading the complete installer (in case I want to re-install it later). A few hours later in the morning before work I decided to kick off the install only to find out I did not have the required 25GB free space on my aging 120GB SSD.
+vs_community.exe /layout  via the commandline to allow downloading the complete installer (in case I want to re-install it later). A few hours later in the morning before work I decided to kick off the install only to find out I did not have the required 25GB free space on my aging 120GB SSD.
 The unnecessary but totally justifiable shopping trip&amp;hellip; My free space problem was easily solved by a short trip to Umart to purchase a shiny new Crucial MX100 256GB SSD</description>
       </item>
       
