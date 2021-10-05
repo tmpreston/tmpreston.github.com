@@ -15,9 +15,9 @@
 
 <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.93a331f96194789a542f33690bbe4f0c102c7e78ffc018217f5a1c33010bad91.js"></script>
+<script defer src="/js/helper/fadeinout.min.9fb19682560d5fa5596fffec85da605067c4acc86aad05add4d8fff9d362a446.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -918,7 +918,7 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="">
 
-<meta name="generator" content="Hugo 0.63.2" />
+<meta name="generator" content="Hugo 0.88.1" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="https://blog.uitlanders.com/posts/2017-06-26-normal-programming-resumed/">
@@ -1092,14 +1092,14 @@ I removed anti-virus/firewalls and still nothing.</p>
 a while getting <a href="https://jekyllrb.com">Jekyll</a> to play nice on windows.  In the end I decided to try the new <a href="https://blogs.windows.com/buildingapps/2016/03/30/run-bash-on-ubuntu-on-windows/#kbmjbWBZdF22HbJX.97">Bash on Ubuntu (on Windows)</a>.  There still<br />
 ended up being a couple of quirks with Jekyll (even when following the most recent <a href="https://jekyllrb.com/docs/windows/">docs</a>).</p>
 <h4 id="zlib-required">zlib required!</h4>
-<pre><code>zlib is missing; necessary for building libxml2
+<pre tabindex="0"><code>zlib is missing; necessary for building libxml2
 </code></pre><p>Solved that error with : apt-get install zlib1g-dev</p>
 <h4 id="version-hell-just-not-the-dll-kind">Version hell (just not the DLL kind)</h4>
 <p>I ended up with incompatible versions of the various libaries required to run/jekyll after attempting <code>bundle update</code></p>
 <p>The solution that worked for me was to follow the <a href="https://jekyllrb.com/docs/github-pages/#use-the-github-pages-gem">github-pages info here</a>.  Which seemed like a good idea since it&rsquo;s hosted on<br />
 github-pages anyway.</p>
 <p>After adding this to the Gemfile everything mostly worked:</p>
-<pre><code>source 'https://rubygems.org'
+<pre tabindex="0"><code>source 'https://rubygems.org'
 
 require 'json'
 require 'open-uri'
@@ -1107,7 +1107,7 @@ versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
 gem 'github-pages', versions['github-pages']
 </code></pre><h4 id="last-error">Last error</h4>
-<pre><code>/var/lib/gems/2.3.0/gems/bundler-1.15.1/lib/bundler/runtime.rb:317:in `check_for_activated_spec!': You have already activated liquid 4.0.0, but your Gemfile requires liquid 3.0.6. Prepending `bundle exec` to your command may solve this. (Gem::LoadError)
+<pre tabindex="0"><code>/var/lib/gems/2.3.0/gems/bundler-1.15.1/lib/bundler/runtime.rb:317:in `check_for_activated_spec!': You have already activated liquid 4.0.0, but your Gemfile requires liquid 3.0.6. Prepending `bundle exec` to your command may solve this. (Gem::LoadError)
         from /var/lib/gems/2.3.0/gems/bundler-1.15.1/lib/bundler/runtime.rb:32:in `block in setup'
         from /usr/lib/ruby/2.3.0/forwardable.rb:204:in `each'
         from /usr/lib/ruby/2.3.0/forwardable.rb:204:in `each'
@@ -1119,7 +1119,7 @@ gem 'github-pages', versions['github-pages']
         from /usr/local/bin/jekyll:22:in `load'
         from /usr/local/bin/jekyll:22:in `&lt;main&gt;'
 </code></pre><p>Points it out right in the console.  Solution is to run using:</p>
-<pre><code>bundle exec jekyll s
+<pre tabindex="0"><code>bundle exec jekyll s
 </code></pre><h3 id="next-steps">Next steps</h3>
 <p>Dealing with these setup quirks kept me busy but since I understand next to no ruby/liquid if I run into other problems I may try something else<br />
 to publish this.  There&rsquo;s a dotnet static site generator <a href="https://wyam.io/">Wyam</a> that may be slightly easier to rip apart and work with.</p>
@@ -1224,7 +1224,7 @@ to publish this.  There&rsquo;s a dotnet static site generator <a href="https://
 </div>
 
 
-<script defer src="/js/swipe.min.08ff2be1b74347bad9e267f732f1388d271b2f9d97b6a8a87bd6a510f17c5ad2.js"></script>
+<script defer src="/js/swipe.min.d70095d96ef6a016133ea2c732c5d4713539d335b739178e356af46f54cf0a16.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -2172,7 +2172,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2015-2020, All Rights Reserved
+                    ©2015-2021, All Rights Reserved
                 
             </p>
         

@@ -15,9 +15,9 @@
 
 <script defer src="/js/fuse.min.94c78ad70b02749822921660cf4e9f0b3701bc0680c421afb784a78228de0275.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.93a331f96194789a542f33690bbe4f0c102c7e78ffc018217f5a1c33010bad91.js"></script>
+<script defer src="/js/helper/fadeinout.min.9fb19682560d5fa5596fffec85da605067c4acc86aad05add4d8fff9d362a446.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -918,7 +918,7 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="">
 
-<meta name="generator" content="Hugo 0.63.2" />
+<meta name="generator" content="Hugo 0.88.1" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="https://blog.uitlanders.com/posts/2017-05-02-restarting-tentacle/">
@@ -1109,7 +1109,7 @@
 <p>Script console worked well.  Just used the following powershell to update a bunch of tentacles.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1121,13 +1121,13 @@
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-Powershell" data-lang="Powershell"><span class="c">#Enable automatic recovery of *Tentacle* services</span>
+<pre tabindex="0" class="chroma"><code class="language-Powershell" data-lang="Powershell"><span class="c">#Enable automatic recovery of *Tentacle* services</span>
 <span class="nv">$TentaclesServices</span> <span class="p">=</span> <span class="nb">Get-Service</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span><span class="nv">$_</span><span class="p">.</span><span class="n">name</span> <span class="o">-like</span> <span class="s1">&#39;*Tentacle*&#39;</span><span class="p">}</span>
 <span class="k">foreach</span><span class="p">(</span><span class="nv">$Tentacle</span> <span class="k">in</span> <span class="nv">$TentaclesServices</span><span class="p">)</span> <span class="p">{</span>
     <span class="nb">Write-Host</span> <span class="n">Update</span> <span class="n">serivce</span> <span class="n">options</span> <span class="k">for</span> <span class="err">:</span> <span class="nv">$Tentacle</span><span class="p">.</span><span class="n">Name</span>
-    <span class="nb">Write-Host</span> <span class="p">`</span><span class="n">tDelayed</span> <span class="n">start</span><span class="p">.</span><span class="p">.</span><span class="p">.</span>
-    <span class="n">sc</span><span class="p">.</span><span class="n">exe</span> <span class="n">config</span> <span class="nv">$Tentacle</span><span class="p">.</span><span class="n">Name</span> <span class="n">start</span><span class="p">=</span> <span class="n">delayed</span><span class="n">-auto</span>
-    <span class="nb">Write-Host</span> <span class="p">`</span><span class="n">tRecovery</span> <span class="n">options</span><span class="p">.</span><span class="p">.</span><span class="p">.</span>
+    <span class="nb">Write-Host</span> <span class="p">`</span><span class="n">tDelayed</span> <span class="n">start</span><span class="p">...</span>
+    <span class="n">sc</span><span class="p">.</span><span class="n">exe</span> <span class="n">config</span> <span class="nv">$Tentacle</span><span class="p">.</span><span class="n">Name</span> <span class="n">start</span><span class="p">=</span> <span class="nb">delayed-auto</span>
+    <span class="nb">Write-Host</span> <span class="p">`</span><span class="n">tRecovery</span> <span class="n">options</span><span class="p">...</span>
     <span class="n">sc</span><span class="p">.</span><span class="n">exe</span> <span class="n">failure</span> <span class="nv">$Tentacle</span><span class="p">.</span><span class="n">Name</span> <span class="n">reset</span><span class="p">=</span><span class="n">0</span> <span class="n">actions</span><span class="p">=</span> <span class="n">restart</span><span class="p">/</span><span class="n">0</span><span class="p">/</span><span class="n">restart</span><span class="p">/</span><span class="n">0</span><span class="p">/</span><span class="n">restart</span><span class="p">/</span><span class="n">0</span>
     <span class="nb">Write-Host</span> <span class="s1">&#39;Complete&#39;</span>
 <span class="p">}</span>
@@ -1232,7 +1232,7 @@
 </div>
 
 
-<script defer src="/js/swipe.min.08ff2be1b74347bad9e267f732f1388d271b2f9d97b6a8a87bd6a510f17c5ad2.js"></script>
+<script defer src="/js/swipe.min.d70095d96ef6a016133ea2c732c5d4713539d335b739178e356af46f54cf0a16.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
@@ -2171,7 +2171,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2015-2020, All Rights Reserved
+                    ©2015-2021, All Rights Reserved
                 
             </p>
         
