@@ -1,32 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>conf on Learn by doing!</title>
+    <title>Conf on Learn by doing!</title>
     <link>https://blog.uitlanders.com/tags/conf/</link>
-    <description>Recent content in conf on Learn by doing!</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Conf on Learn by doing!</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <managingEditor>tim.preston@uitlanders.com (tmpreston)</managingEditor>
-    <webMaster>tim.preston@uitlanders.com (tmpreston)</webMaster>
     <copyright>©2015-{year}, All Rights Reserved</copyright>
     <lastBuildDate>Wed, 06 Jan 2016 00:00:00 +0000</lastBuildDate>
-    
-        <atom:link href="https://blog.uitlanders.com/tags/conf/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
-      
-      <item>
-        <title>DDD Brisbane 0x5</title>
-        <link>https://blog.uitlanders.com/posts/2016-01-06-ddd15/</link>
-        <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
-        <author>tim.preston@uitlanders.com (tmpreston)</author>
-        <guid>https://blog.uitlanders.com/posts/2016-01-06-ddd15/</guid>
-        <description>Another year another DDD. The 2015 event was great and lives up to the by developers for developers mantra. This year was just as relaxed and amusing as last year. Two sessions stood for me and I suspect I&amp;rsquo;ll investigate a bit further:
- Parsing Text: the Programming Superpower You Need at Your Fingertips ( Nicholas Blumhardt | [@nblumhardt][2] |  ) After reading the Aggregate Queries in Seq series of blog posts I was definitely intrigued to see how deep this session would go into the Sprache library. A great talk though there was only soo much that could be covered in the hour.
- Introduction to Akka.Net ( Jaime | [@jaimefebres][5] ) This talk mainly covered quite introductory concepts for Akka.</description>
-      </item>
-      
-    
+    <atom:link href="https://blog.uitlanders.com/tags/conf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DDD Brisbane 0x5</title>
+      <link>https://blog.uitlanders.com/posts/2016-01-06-ddd15/</link>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://blog.uitlanders.com/posts/2016-01-06-ddd15/</guid>
+      <description>&lt;p&gt;Another year another &lt;a href=&#34;http://dddbrisbane.com/&#34;&gt;DDD&lt;/a&gt;.  The 2015 event was great and lives up to the &lt;em&gt;by developers for developers&lt;/em&gt; mantra.  This year was just as relaxed and amusing as last year.  Two sessions stood for me and I suspect I&amp;rsquo;ll investigate a bit further:&lt;/p&gt;&#xA;&lt;hr/&gt;&#xA;Parsing Text: the Programming Superpower You Need at Your Fingertips&lt;br/&gt;&#xA;( Nicholas Blumhardt | [@nblumhardt][2]  | &lt;http://nblumhardt.com&gt; )&#xA;&lt;p&gt;After reading the &lt;a href=&#34;http://nblumhardt.com/2015/11/aggregate-queries-in-seq-part-1-goals/&#34;&gt;Aggregate Queries in Seq&lt;/a&gt; series of blog posts I was definitely intrigued to see how deep this session would go into the &lt;a href=&#34;https://github.com/sprache/Sprache&#34;&gt;Sprache&lt;/a&gt; library.  A great talk though there was only soo much that could be covered in the hour.&lt;/p&gt;&#xA;&lt;hr/&gt;&#xA;Introduction to Akka.Net&lt;br/&gt;&#xA;( Jaime | [@jaimefebres][5] )&#xA;&lt;p&gt;This talk mainly covered quite introductory concepts for Akka.Net which I&amp;rsquo;d already been exposed to after doing the &lt;a href=&#34;https://github.com/petabridge/akka-bootcamp&#34;&gt;bootcamp&lt;/a&gt;.  He did then provide an awesome demonstration of using Akka.Net as a facade around an existing service/component to ensure thread-safe access.  This wasn&amp;rsquo;t something I&amp;rsquo;d thought of before and could definitely be of benefit with some legacy code at work.&lt;/p&gt;&#xA;&lt;hr/&gt;&#xA;Maybe if I get my act together I could put together/present a session myself for DDD Brisbane 0x6.</description>
+    </item>
   </channel>
 </rss>

@@ -1,161 +1,97 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Learn by doing!</title>
     <link>https://blog.uitlanders.com/</link>
     <description>Recent content on Learn by doing!</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <managingEditor>tim.preston@uitlanders.com (tmpreston)</managingEditor>
-    <webMaster>tim.preston@uitlanders.com (tmpreston)</webMaster>
     <copyright>©2015-{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 02 Feb 2020 21:50:25 +1000</lastBuildDate>
-    
-        <atom:link href="https://blog.uitlanders.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
-      
-      <item>
-        <title>Try Hugo!</title>
-        <link>https://blog.uitlanders.com/posts/2020-02-02-try-hugo/</link>
-        <pubDate>Sun, 02 Feb 2020 21:50:25 +1000</pubDate>
-        <author>tim.preston@uitlanders.com (tmpreston)</author>
-        <guid>https://blog.uitlanders.com/posts/2020-02-02-try-hugo/</guid>
-        <description>It&amp;rsquo;s been a while (and another child) since my last post. The couple of times I went to post something I seemed to run into problems with running jekyll (previous blog site generator) on my local PC.
-I&amp;rsquo;ve been using Hugo / docdock at work for documentation generation and decided to make the switch on the blog as well. Haven&amp;rsquo;t had anywhere near the same number of issues/quirks and installation just requires a single binary (or choco install hugo-extended in reality).</description>
-      </item>
-      
-      <item>
-        <title>Contact</title>
-        <link>https://blog.uitlanders.com/contact/</link>
-        <pubDate>Sun, 02 Feb 2020 20:41:08 +1000</pubDate>
-        <author>tim.preston@uitlanders.com (tmpreston)</author>
-        <guid>https://blog.uitlanders.com/contact/</guid>
-        <description>Contact via email below (or possibly twitter if notifications are working).
- Your email:    Your message:   Send </description>
-      </item>
-      
-      <item>
-        <title>App store not friends with IPv6</title>
-        <link>https://blog.uitlanders.com/posts/2017-11-25-app-store-not-friends-with-ipv6/</link>
-        <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
-        <author>tim.preston@uitlanders.com (tmpreston)</author>
-        <guid>https://blog.uitlanders.com/posts/2017-11-25-app-store-not-friends-with-ipv6/</guid>
-        <description>I recently had some issues trying to download a game Shadows Of War from the Microsoft Store. Despite a number of google searches including reddit threads, official forums etc, there didn&amp;rsquo;t seem to be any recommended solution/s (Some places suggested re-installing windows but I wasn&amp;rsquo;t quite up for that).
-I tried looking into task manager and then resource monitor and noticed that store application was making some IPv6 connections but no data was being transferred. I disabled IPv6 and downloading started flawlessly.
-This may have just been co-incidence but maybe this post can help someone.
- Windows 10 / Version 1709 / OS Build 16299.19 *  </description>
-      </item>
-      
-      <item>
-        <title>Normal programming resumes...</title>
-        <link>https://blog.uitlanders.com/posts/2017-06-26-normal-programming-resumed/</link>
-        <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
-        <author>tim.preston@uitlanders.com (tmpreston)</author>
-        <guid>https://blog.uitlanders.com/posts/2017-06-26-normal-programming-resumed/</guid>
-        <description>Normal programming&amp;hellip; Despite my best intentions I haven&amp;rsquo;t posted recently. What I did do was test the &amp;lsquo;Reset this PC&amp;rsquo; functionality built into windows 10.
-I used to re-install windows as a matter of course every six months or so but haven&amp;rsquo;t done so since free time became so limited. I started
-to have issues with my browser (and http traffic in general) where it would just stop working. SSH and other TCP services were fine.
-I removed anti-virus/firewalls and still nothing.
-So the &amp;lsquo;Reset this PC&amp;rsquo; function in windows 10 works well. What I didn&amp;rsquo;t count on was the fact that I&amp;rsquo;d installed/tweaked things for quite
-a while getting Jekyll to play nice on windows. In the end I decided to try the new Bash on Ubuntu (on Windows).</description>
-      </item>
-      
-      <item>
-        <title>Restarting Tentacle</title>
-        <link>https://blog.uitlanders.com/posts/2017-05-02-restarting-tentacle/</link>
-        <pubDate>Tue, 02 May 2017 00:00:00 +0000</pubDate>
-        <author>tim.preston@uitlanders.com (tmpreston)</author>
-        <guid>https://blog.uitlanders.com/posts/2017-05-02-restarting-tentacle/</guid>
-        <description>Short post this time. I was reviewing the newsletter for Ocotopus Deploy and came across an article on automatically restarting Octopus Tentacle services.
-I liked the idea but as part of my automate all the things preference at the moment I thought it should be possible to do this without getting an GUI involved. Fortunately this is easily possible. Start a console/cmd session with suitable Administrator rights and type the following:
-sc failure &amp;quot;OctopusDeploy Tentacle&amp;quot; reset=0 actions= restart/0/restart/0/restart/0  This happily set the first / second / subsequent failure actions.
-sc config &amp;quot;OctopusDeploy Tentacle&amp;quot; start= delayed-auto  To set the startup to &amp;lsquo;Automatic (Delayed Start)&amp;rsquo;
-Hopefully this helps someone and/or makes me internet famous if it hits the Octopus Deploy newsletter!</description>
-      </item>
-      
-      <item>
-        <title>You have chosen...</title>
-        <link>https://blog.uitlanders.com/posts/2016-09-05-you-have-chosen/</link>
-        <pubDate>Mon, 05 Sep 2016 00:00:00 +0000</pubDate>
-        <author>tim.preston@uitlanders.com (tmpreston)</author>
-        <guid>https://blog.uitlanders.com/posts/2016-09-05-you-have-chosen/</guid>
-        <description>It&amp;rsquo;s been an interesting year at work. I&amp;rsquo;ve been hard at work on creating a cloud based offering of our application. This wasn&amp;rsquo;t something on the roadmap as the application was a thick client built on .NET in WinForms. Recently cloud providers have been trying to ensure that they&amp;rsquo;re able to migrate any and all software and so we ended up investigating a Azure RemoteApp.
-RemoteApp allowed us to take an application built for LAN/WAN deployment and without needing to make huge changes provide a service with very low initial costs (no expensive servers, no windows licensing &amp;amp; no SQL licensing). Having a Mac OS X, iOS and Android applications proved very popular. The multiple options to accessing data (including the preview of the HTML5 client) was great and it&amp;rsquo;s quite incredible seeing an application originally written in .</description>
-      </item>
-      
-      <item>
-        <title>DDD Brisbane 0x5</title>
-        <link>https://blog.uitlanders.com/posts/2016-01-06-ddd15/</link>
-        <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
-        <author>tim.preston@uitlanders.com (tmpreston)</author>
-        <guid>https://blog.uitlanders.com/posts/2016-01-06-ddd15/</guid>
-        <description>Another year another DDD. The 2015 event was great and lives up to the by developers for developers mantra. This year was just as relaxed and amusing as last year. Two sessions stood for me and I suspect I&amp;rsquo;ll investigate a bit further:
- Parsing Text: the Programming Superpower You Need at Your Fingertips ( Nicholas Blumhardt | [@nblumhardt][2] |  ) After reading the Aggregate Queries in Seq series of blog posts I was definitely intrigued to see how deep this session would go into the Sprache library. A great talk though there was only soo much that could be covered in the hour.
- Introduction to Akka.Net ( Jaime | [@jaimefebres][5] ) This talk mainly covered quite introductory concepts for Akka.</description>
-      </item>
-      
-      <item>
-        <title>Reading &gt;&gt; Listening</title>
-        <link>https://blog.uitlanders.com/posts/2015-11-10-reading-listening/</link>
-        <pubDate>Tue, 10 Nov 2015 00:00:00 +0000</pubDate>
-        <author>tim.preston@uitlanders.com (tmpreston)</author>
-        <guid>https://blog.uitlanders.com/posts/2015-11-10-reading-listening/</guid>
-        <description>#Excuses
-I haven&amp;rsquo;t had nearly as much free time recently due to the feature creep of son 1.0
-Time well spent however I haven&amp;rsquo;t been spending much time doing which was my main goal for the year. I&amp;rsquo;ve kept up with the usual blogs and tech news ( and decided I should really find a way to make the crazy amount of cash required to purchase a Surface Book).
-#Doing
-For quite a while I&amp;rsquo;ve been hoping to do some experiments/side projects exploring Akka.NET. There was an interview with one of the creators on Hansel Minutes 472. I don&amp;rsquo;t have headphones for the train (the one reliable block of free time I have) so I&amp;rsquo;ve been patiently waiting for the transcription to be made available.</description>
-      </item>
-      
-      <item>
-        <title>VPS Hosting</title>
-        <link>https://blog.uitlanders.com/posts/2015-06-30-vps-hosting/</link>
-        <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
-        <author>tim.preston@uitlanders.com (tmpreston)</author>
-        <guid>https://blog.uitlanders.com/posts/2015-06-30-vps-hosting/</guid>
-        <description>Before hosting here on the awesome GitHub Pages, I contemplated setting up a VPS server. One of my first choices, Digital Ocean recently sent me an offer for a free T-shirt if I set up a droplet and answered some survey questions.
-I haven&amp;rsquo;t gotten a free T-shirt since my initial take on Xamarin, so I decided to see how hard it would be to setup Jekyll on a clean VPS.
-Initial seutp was easy and the VPS control panel was clean and simple.
-Getting the current blog up just required running a few commands: (and I didn&amp;rsquo;t even need to look them up)
-apt-get install jekyll apt-get install git git clone https://github.com/tmpreston/tmpreston.github.com  Running jekyll using the inbuilt server (jekyll server &amp;ndash;host=0.</description>
-      </item>
-      
-      <item>
-        <title>Life on the bleeding edge... bleeding</title>
-        <link>https://blog.uitlanders.com/posts/2015-05-03-life-on-the-bleeding-edge-bleeding/</link>
-        <pubDate>Sun, 03 May 2015 00:00:00 +0000</pubDate>
-        <author>tim.preston@uitlanders.com (tmpreston)</author>
-        <guid>https://blog.uitlanders.com/posts/2015-05-03-life-on-the-bleeding-edge-bleeding/</guid>
-        <description>The start Exciting times at the moment with the release of the RC for Visual Studio 2015 Community (&amp;amp; Enterprise Editions). Since I&amp;rsquo;m normally technically curious I thought I&amp;rsquo;d download and have a look. Obviously the first step I took was to run
-vs_community.exe /layout  via the commandline to allow downloading the complete installer (in case I want to re-install it later). A few hours later in the morning before work I decided to kick off the install only to find out I did not have the required 25GB free space on my aging 120GB SSD.
-The unnecessary but totally justifiable shopping trip&amp;hellip; My free space problem was easily solved by a short trip to Umart to purchase a shiny new Crucial MX100 256GB SSD</description>
-      </item>
-      
-      <item>
-        <title>Brisbane .Net Meetup April 2015</title>
-        <link>https://blog.uitlanders.com/posts/2015-04-21-brisbane-net-meetup-april/</link>
-        <pubDate>Tue, 21 Apr 2015 00:00:00 +0000</pubDate>
-        <author>tim.preston@uitlanders.com (tmpreston)</author>
-        <guid>https://blog.uitlanders.com/posts/2015-04-21-brisbane-net-meetup-april/</guid>
-        <description>This month&amp;rsquo;s .Net Meetup was all the new things to see in Visual Studio 2015 and ALM 2015 - Adam Cogan
-The talk covered a brief walk down memory lane including screenshots of each of the versions of Visual Studio since 2002. Quite amazing to see exactly how much has changed. No real discussion on how stability has greatly improved but some highly amusing discussions regarding the dreaded ALL CAPS MENUS.
-There was a brief look at the impressive App Insights which sadly doesn&amp;rsquo;t have an easy binding for WinForms meaning it may be some time before I&amp;rsquo;ll get to use it.
-Great relaxed atmosphere as usual and while the talk pointed out a few things that aren&amp;rsquo;t quite going to make it into the initial release we only covered half the topics.</description>
-      </item>
-      
-      <item>
-        <title>Hello World!</title>
-        <link>https://blog.uitlanders.com/posts/2015-03-03-hello-world/</link>
-        <pubDate>Tue, 03 Mar 2015 00:00:00 +0000</pubDate>
-        <author>tim.preston@uitlanders.com (tmpreston)</author>
-        <guid>https://blog.uitlanders.com/posts/2015-03-03-hello-world/</guid>
-        <description>So in my ongoing quest to become a better developer I&amp;rsquo;ve decided I should be reading less and doing more. Reading blogs has helped improved both my code and general development practices but ultimately I&amp;rsquo;m going to learn more by trying things out for myself.
-In the past my participation in side projects could be easily explained&amp;hellip;. This isn&amp;rsquo;t likely to change but I&amp;rsquo;ll be taking the time to upload some of these experiments/side projects to github (learning more git along the way) and hope that someone else can benefit from them too.
-I&amp;rsquo;ll also be posting the odd troubleshooting tip when I come across particularly annoying or hard to track down issues. Progress is likely to be slow initially due the arrival of son 1.</description>
-      </item>
-      
-    
+    <atom:link href="https://blog.uitlanders.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Try Hugo!</title>
+      <link>https://blog.uitlanders.com/posts/2020-02-02-try-hugo/</link>
+      <pubDate>Sun, 02 Feb 2020 21:50:25 +1000</pubDate>
+      <guid>https://blog.uitlanders.com/posts/2020-02-02-try-hugo/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s been a while (and another child) since my last post.  The couple of times I went to post something I seemed to run into problems with running jekyll (previous blog site generator) on my local PC.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been using &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; / &lt;a href=&#34;https://docdock.netlify.com/&#34;&gt;docdock&lt;/a&gt; at work for documentation generation and decided to make the switch on the blog as well.  Haven&amp;rsquo;t had anywhere near the same number of issues/quirks and installation just requires a single binary (or choco install hugo-extended in reality).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://blog.uitlanders.com/contact/</link>
+      <pubDate>Sun, 02 Feb 2020 20:41:08 +1000</pubDate>
+      <guid>https://blog.uitlanders.com/contact/</guid>
+      <description>&lt;p&gt;Contact via email below (or possibly twitter if notifications are working).&lt;/p&gt;&#xA;&lt;form&#xA;  action=&#34;https://formspree.io/f/mleavwvj&#34;&#xA;  method=&#34;POST&#34;&#xA;&gt;&#xA;  &lt;label&gt;&#xA;    Your email:&#xA;    &lt;input type=&#34;email&#34; name=&#34;_replyto&#34;&gt;&#xA;  &lt;/label&gt;&#xA;  &lt;br/&gt;&#xA;  &lt;label&gt;&#xA;    Your message:&#xA;    &lt;textarea name=&#34;message&#34; rows=&#34;10&#34; cols=&#34;80&#34; &gt;&lt;/textarea&gt;&#xA;  &lt;/label&gt;&#xA;  &lt;button type=&#34;submit&#34;&gt;Send&lt;/button&gt;&#xA;&lt;/form&gt;</description>
+    </item>
+    <item>
+      <title>App store not friends with IPv6</title>
+      <link>https://blog.uitlanders.com/posts/2017-11-25-app-store-not-friends-with-ipv6/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>https://blog.uitlanders.com/posts/2017-11-25-app-store-not-friends-with-ipv6/</guid>
+      <description>&lt;p&gt;I recently had some issues trying to download a game &lt;a href=&#34;https://www.microsoft.com/store/productId/9MW4TZ50746T&#34;&gt;Shadows Of War&lt;/a&gt; from the Microsoft Store.  Despite a number of google searches including reddit threads, official forums etc, there didn&amp;rsquo;t seem to be any recommended solution/s (Some places suggested re-installing windows but I wasn&amp;rsquo;t quite up for that).&lt;/p&gt;&#xA;&lt;p&gt;I tried looking into task manager and then resource monitor and noticed that store application was making some IPv6 connections but no data was being transferred.  I disabled IPv6 and downloading started flawlessly.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://blog.uitlanders.com/assets/201711/0001_ipv6.png&#34; alt=&#34;1i&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This may have just been co-incidence but maybe this post can help someone.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Windows 10 / Version 1709 / OS Build 16299.19 *&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Normal programming resumes...</title>
+      <link>https://blog.uitlanders.com/posts/2017-06-26-normal-programming-resumed/</link>
+      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>https://blog.uitlanders.com/posts/2017-06-26-normal-programming-resumed/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://blog.uitlanders.com/assets/201706/001_onair.jpg&#34; alt=&#34;1i&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;normal-programming&#34;&gt;Normal programming&amp;hellip;&lt;/h3&gt;&#xA;&lt;p&gt;Despite my best intentions I haven&amp;rsquo;t posted recently.  What I did do was test the &amp;lsquo;Reset this PC&amp;rsquo; functionality built into windows 10.&lt;br /&gt;&#xA;I used to re-install windows as a matter of course every six months or so but haven&amp;rsquo;t done so since free time became so limited.  I started&lt;br /&gt;&#xA;to have issues with my browser (and http traffic in general) where it would just stop working.  SSH and other TCP services were fine.&lt;br /&gt;&#xA;I removed anti-virus/firewalls and still nothing.&lt;/p&gt;&#xA;&lt;p&gt;So the &amp;lsquo;Reset this PC&amp;rsquo; function in windows 10 works well.  What I didn&amp;rsquo;t count on was the fact that I&amp;rsquo;d installed/tweaked things for quite&lt;br /&gt;&#xA;a while getting &lt;a href=&#34;https://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; to play nice on windows.  In the end I decided to try the new &lt;a href=&#34;https://blogs.windows.com/buildingapps/2016/03/30/run-bash-on-ubuntu-on-windows/#kbmjbWBZdF22HbJX.97&#34;&gt;Bash on Ubuntu (on Windows)&lt;/a&gt;.  There still&lt;br /&gt;&#xA;ended up being a couple of quirks with Jekyll (even when following the most recent &lt;a href=&#34;https://jekyllrb.com/docs/windows/&#34;&gt;docs&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;h4 id=&#34;zlib-required&#34;&gt;zlib required!&lt;/h4&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;zlib is missing; necessary for building libxml2&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Solved that error with : apt-get install zlib1g-dev&lt;/p&gt;&#xA;&lt;h4 id=&#34;version-hell-just-not-the-dll-kind&#34;&gt;Version hell (just not the DLL kind)&lt;/h4&gt;&#xA;&lt;p&gt;I ended up with incompatible versions of the various libaries required to run/jekyll after attempting &lt;code&gt;bundle update&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;The solution that worked for me was to follow the &lt;a href=&#34;https://jekyllrb.com/docs/github-pages/#use-the-github-pages-gem&#34;&gt;github-pages info here&lt;/a&gt;.  Which seemed like a good idea since it&amp;rsquo;s hosted on&lt;br /&gt;&#xA;github-pages anyway.&lt;/p&gt;&#xA;&lt;p&gt;After adding this to the Gemfile everything mostly worked:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;source &amp;#39;https://rubygems.org&amp;#39;&#xA;&#xA;require &amp;#39;json&amp;#39;&#xA;require &amp;#39;open-uri&amp;#39;&#xA;versions = JSON.parse(open(&amp;#39;https://pages.github.com/versions.json&amp;#39;).read)&#xA;&#xA;gem &amp;#39;github-pages&amp;#39;, versions[&amp;#39;github-pages&amp;#39;]&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;last-error&#34;&gt;Last error&lt;/h4&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/var/lib/gems/2.3.0/gems/bundler-1.15.1/lib/bundler/runtime.rb:317:in `check_for_activated_spec!&amp;#39;: You have already activated liquid 4.0.0, but your Gemfile requires liquid 3.0.6. Prepending `bundle exec` to your command may solve this. (Gem::LoadError)&#xA;        from /var/lib/gems/2.3.0/gems/bundler-1.15.1/lib/bundler/runtime.rb:32:in `block in setup&amp;#39;&#xA;        from /usr/lib/ruby/2.3.0/forwardable.rb:204:in `each&amp;#39;&#xA;        from /usr/lib/ruby/2.3.0/forwardable.rb:204:in `each&amp;#39;&#xA;        from /var/lib/gems/2.3.0/gems/bundler-1.15.1/lib/bundler/runtime.rb:27:in `map&amp;#39;&#xA;        from /var/lib/gems/2.3.0/gems/bundler-1.15.1/lib/bundler/runtime.rb:27:in `setup&amp;#39;&#xA;        from /var/lib/gems/2.3.0/gems/bundler-1.15.1/lib/bundler.rb:101:in `setup&amp;#39;&#xA;        from /var/lib/gems/2.3.0/gems/jekyll-3.5.0/lib/jekyll/plugin_manager.rb:48:in `require_from_bundler&amp;#39;&#xA;        from /var/lib/gems/2.3.0/gems/jekyll-3.5.0/exe/jekyll:9:in `&amp;lt;top (required)&amp;gt;&amp;#39;&#xA;        from /usr/local/bin/jekyll:22:in `load&amp;#39;&#xA;        from /usr/local/bin/jekyll:22:in `&amp;lt;main&amp;gt;&amp;#39;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Points it out right in the console.  Solution is to run using:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Restarting Tentacle</title>
+      <link>https://blog.uitlanders.com/posts/2017-05-02-restarting-tentacle/</link>
+      <pubDate>Tue, 02 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://blog.uitlanders.com/posts/2017-05-02-restarting-tentacle/</guid>
+      <description>&lt;p&gt;Short post this time.  I was reviewing the newsletter for &lt;a href=&#34;https://octopus.com/&#34;&gt;Ocotopus Deploy&lt;/a&gt; and came across an article on &lt;a href=&#34;https://thaddparker.wordpress.com/2017/04/04/how-to-update-octopus-deploy-tentacle-to-restart-automatically/?__s=kv5pr8errbcsurcyn9np&#34;&gt;automatically restarting Octopus Tentacle services&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I liked the idea but as part of my &lt;em&gt;&lt;strong&gt;automate all the things&lt;/strong&gt;&lt;/em&gt; preference at the moment I thought it should be possible to do this without getting an GUI involved.  Fortunately this is easily possible.  Start a console/cmd session with suitable Administrator rights and type the following:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sc failure &amp;quot;OctopusDeploy Tentacle&amp;quot; reset=0 actions= restart/0/restart/0/restart/0&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;This happily set the first / second / subsequent failure actions.&lt;br /&gt;&#xA;&lt;img src=&#34;https://blog.uitlanders.com/assets/201705/0001_scfailure.png&#34; alt=&#34;1i&#34;&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sc config &amp;quot;OctopusDeploy Tentacle&amp;quot; start= delayed-auto&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;To set the startup to &amp;lsquo;Automatic (Delayed Start)&amp;rsquo;&lt;br /&gt;&#xA;&lt;img src=&#34;https://blog.uitlanders.com/assets/201705/0002_scconfig.png&#34; alt=&#34;2i&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hopefully this helps someone and/or makes me internet famous if it hits the &lt;a href=&#34;https://octopus.com/&#34;&gt;Octopus Deploy&lt;/a&gt; newsletter!  I might even check how hard it is to use the Ocotopus &lt;a href=&#34;https://octopus.com/docs/administration/script-console&#34;&gt;script console&lt;/a&gt; to run it.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;Update&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Script console worked well.  Just used the following powershell to update a bunch of tentacles.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#Enable automatic recovery of *Tentacle* services&#xA;$TentaclesServices = Get-Service | Where-Object {$_.name -like &amp;#39;*Tentacle*&amp;#39;}&#xA;foreach($Tentacle in $TentaclesServices) {&#xA;    Write-Host Update serivce options for : $Tentacle.Name&#xA;    Write-Host `tDelayed start...&#xA;    sc.exe config $Tentacle.Name start= delayed-auto&#xA;    Write-Host `tRecovery options...&#xA;    sc.exe failure $Tentacle.Name reset=0 actions= restart/0/restart/0/restart/0&#xA;    Write-Host &amp;#39;Complete&amp;#39;&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>You have chosen...</title>
+      <link>https://blog.uitlanders.com/posts/2016-09-05-you-have-chosen/</link>
+      <pubDate>Mon, 05 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://blog.uitlanders.com/posts/2016-09-05-you-have-chosen/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://blog.uitlanders.com/assets/201609/0001_youhavechosenpoorly.jpg&#34; alt=&#34;1i&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s been an interesting year at work.  I&amp;rsquo;ve been hard at work on creating a cloud based offering of our application.  This wasn&amp;rsquo;t something on the roadmap as the application was a thick client built on .NET in WinForms.  Recently cloud providers have been trying to ensure that they&amp;rsquo;re able to migrate any and all software and so we ended up investigating a &lt;a href=&#34;https://azure.microsoft.com/en-us/services/remoteapp/&#34;&gt;Azure RemoteApp&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;RemoteApp allowed us to take an application built for LAN/WAN deployment and without needing to make huge changes provide a service with very low initial costs (no expensive servers, no windows licensing &amp;amp; no SQL licensing).  Having a Mac OS X, iOS and Android applications proved very popular.  The multiple options to accessing data (including the preview of the HTML5 client) was great and it&amp;rsquo;s quite incredible seeing an application originally written in .NET 1.1 (and slowly migrated through the years) suddenly accessible on an iPhone.&lt;/p&gt;&#xA;&lt;p&gt;But sometimes good things must come to and end and Microsoft is &lt;a href=&#34;https://blogs.technet.microsoft.com/enterprisemobility/2016/08/12/application-remoting-and-the-cloud/&#34;&gt;shutting down RemoteApp&lt;/a&gt;.  There aren&amp;rsquo;t many details available yet but hopefully the migration path proves easy to implement.  The existing processes to manage template images/collections (and even configuring drive redirection) weren&amp;rsquo;t without issues,  (I had to switch from powershell to web API to workaround some quirks) but were definitely simpler than configuring/managing a complete desktop services environment (and having to come up with session management/tracking/pricing)&lt;/p&gt;&#xA;&lt;p&gt;On the plus side, I do feel like I&amp;rsquo;ve finally managed a right of passage.&lt;/p&gt;&#xA;&lt;p&gt;LINQ to SQL (dodged)&lt;br /&gt;&#xA;Silverlight (dodged)&lt;br /&gt;&#xA;Azure RemoteApp &amp;hellip;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DDD Brisbane 0x5</title>
+      <link>https://blog.uitlanders.com/posts/2016-01-06-ddd15/</link>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://blog.uitlanders.com/posts/2016-01-06-ddd15/</guid>
+      <description>&lt;p&gt;Another year another &lt;a href=&#34;http://dddbrisbane.com/&#34;&gt;DDD&lt;/a&gt;.  The 2015 event was great and lives up to the &lt;em&gt;by developers for developers&lt;/em&gt; mantra.  This year was just as relaxed and amusing as last year.  Two sessions stood for me and I suspect I&amp;rsquo;ll investigate a bit further:&lt;/p&gt;&#xA;&lt;hr/&gt;&#xA;Parsing Text: the Programming Superpower You Need at Your Fingertips&lt;br/&gt;&#xA;( Nicholas Blumhardt | [@nblumhardt][2]  | &lt;http://nblumhardt.com&gt; )&#xA;&lt;p&gt;After reading the &lt;a href=&#34;http://nblumhardt.com/2015/11/aggregate-queries-in-seq-part-1-goals/&#34;&gt;Aggregate Queries in Seq&lt;/a&gt; series of blog posts I was definitely intrigued to see how deep this session would go into the &lt;a href=&#34;https://github.com/sprache/Sprache&#34;&gt;Sprache&lt;/a&gt; library.  A great talk though there was only soo much that could be covered in the hour.&lt;/p&gt;&#xA;&lt;hr/&gt;&#xA;Introduction to Akka.Net&lt;br/&gt;&#xA;( Jaime | [@jaimefebres][5] )&#xA;&lt;p&gt;This talk mainly covered quite introductory concepts for Akka.Net which I&amp;rsquo;d already been exposed to after doing the &lt;a href=&#34;https://github.com/petabridge/akka-bootcamp&#34;&gt;bootcamp&lt;/a&gt;.  He did then provide an awesome demonstration of using Akka.Net as a facade around an existing service/component to ensure thread-safe access.  This wasn&amp;rsquo;t something I&amp;rsquo;d thought of before and could definitely be of benefit with some legacy code at work.&lt;/p&gt;&#xA;&lt;hr/&gt;&#xA;Maybe if I get my act together I could put together/present a session myself for DDD Brisbane 0x6.</description>
+    </item>
+    <item>
+      <title>Reading &gt;&gt; Listening</title>
+      <link>https://blog.uitlanders.com/posts/2015-11-10-reading--listening/</link>
+      <pubDate>Tue, 10 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://blog.uitlanders.com/posts/2015-11-10-reading--listening/</guid>
+      <description>&lt;p&gt;#Excuses&lt;br /&gt;&#xA;I haven&amp;rsquo;t had nearly as much free time recently due to the feature creep of son 1.0&lt;br /&gt;&#xA;&lt;img src=&#34;https://blog.uitlanders.com/assets/201511/01_SON10.png&#34; alt=&#34;1i&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Time well spent however I haven&amp;rsquo;t been spending much time &lt;strong&gt;doing&lt;/strong&gt; which was my main goal for the year.  I&amp;rsquo;ve kept up with the usual blogs and tech news ( and decided I should really find a way to make the crazy amount of cash required to purchase a &lt;a href=&#34;https://www.microsoft.com/surface/en-au/devices/surface-book&#34;&gt;Surface Book&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;#Doing&lt;br /&gt;&#xA;For quite a while I&amp;rsquo;ve been hoping to do some experiments/side projects exploring &lt;a href=&#34;http://getakka.net/&#34;&gt;Akka.NET&lt;/a&gt;.  There was an interview with one of the creators on &lt;a href=&#34;http://hanselminutes.com/472/inside-the-akkanet-open-source-project-and-the-actor-model-with-aaron-stannard&#34;&gt;Hansel Minutes 472&lt;/a&gt;.  I don&amp;rsquo;t have headphones for the train (the one reliable block of free time I have) so I&amp;rsquo;ve been patiently waiting for the transcription to be made available.  Six months patient even.&lt;/p&gt;&#xA;&lt;p&gt;Then fortuitously I managed to find a block of free time while at home.  Yes I could have listened to the mp3 version.  But instead what I did was think : How hard can it be to transcribe the audio myself so that next time there&amp;rsquo;s an awesome podcast without a transcription I have some kind of solution.&lt;/p&gt;&#xA;&lt;p&gt;And so was born: &lt;a href=&#34;https://github.com/tmpreston/BingVoiceTranscription&#34;&gt;BingVoiceTranscription&lt;/a&gt;!&lt;/p&gt;&#xA;&lt;p&gt;A jury-rigged system comprising of &lt;a href=&#34;https://datamarket.azure.com/dataset/bing/speechrecognition&#34;&gt;Microsoft&amp;rsquo;s Azure Bing Speech Recognition&lt;/a&gt; and &lt;a href=&#34;https://naudio.codeplex.com/&#34;&gt;NAudio&lt;/a&gt;.  No GUI (or even console input yet), just a simple program using XUnit tests to execute/drive it.&lt;/p&gt;&#xA;&lt;p&gt;NAudio is used to convert the mp3 -&amp;gt; wav.  It&amp;rsquo;s also used to split the wav data into 10 second chunks (the maximum allowed by Bing Voice).&lt;/p&gt;&#xA;&lt;p&gt;The chunks of wav audio are then passed to the Bing webservice with the returned text being concatenated together.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>VPS Hosting</title>
+      <link>https://blog.uitlanders.com/posts/2015-06-30-vps-hosting/</link>
+      <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>https://blog.uitlanders.com/posts/2015-06-30-vps-hosting/</guid>
+      <description>&lt;p&gt;Before hosting here on the awesome &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;, I contemplated setting up a VPS server.  One of my first choices, &lt;a href=&#34;https://www.digitalocean.com/?refcode=bb3d150415f0&#34;&gt;Digital Ocean&lt;/a&gt; recently sent me an offer for a free T-shirt if I set up a &lt;em&gt;droplet&lt;/em&gt; and answered some survey questions.&lt;/p&gt;&#xA;&lt;p&gt;I haven&amp;rsquo;t gotten a free T-shirt since my initial take on &lt;a href=&#34;http://xamarin.com/f-sharp-shirt&#34;&gt;Xamarin&lt;/a&gt;, so I decided to see how hard it would be to setup &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt; on a clean VPS.&lt;/p&gt;&#xA;&lt;p&gt;Initial seutp was easy and the VPS control panel was clean and simple.&lt;br /&gt;&#xA;&lt;img src=&#34;https://blog.uitlanders.com/assets/201506/01_droplet_creation.png&#34; alt=&#34;1i&#34;&gt;&lt;br /&gt;&#xA;&lt;img src=&#34;https://blog.uitlanders.com/assets/201506/02_droplet_creation.png&#34; alt=&#34;2i&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Getting the current blog up just required running a few commands: (and I didn&amp;rsquo;t even need to look them up)&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;apt-get install jekyll&#xA;apt-get install git&#xA;git clone https://github.com/tmpreston/tmpreston.github.com&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Running jekyll using the inbuilt server (jekyll server &amp;ndash;host=0.0.0.0) proved to be nice and speedy too.&lt;br /&gt;&#xA;&lt;img src=&#34;https://blog.uitlanders.com/assets/201506/03_droplet_jekyll_host.png&#34; alt=&#34;3i&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;And just for completeness I tried &lt;a href=&#34;http://nginx.org/en/&#34;&gt;nginx&lt;/a&gt; too.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;apt-get install nginx&#xA;cp -R * /var/www/html/&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;The control panel has some basic in-built reporting already.&lt;br /&gt;&#xA;&lt;img src=&#34;https://blog.uitlanders.com/assets/201506/04_droplet_command_panel.png&#34; alt=&#34;4i&#34;&gt;&lt;br /&gt;&#xA;And a handy reset root password utility if you end up not pasting a valid SSH public key during &lt;em&gt;droplet&lt;/em&gt; creation.&lt;/p&gt;&#xA;&lt;p&gt;Everything worked well and prior to destruction of my little &lt;em&gt;droplet&lt;/em&gt; I thought I&amp;rsquo;d check how fast the SSD disk was.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;hdparm -t /dev/vda&#xA;hdparm -T /dev/vda&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://blog.uitlanders.com/assets/201506/05_hdd_stats.png&#34; alt=&#34;5i&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;So if ever &lt;a href=&#34;https://www.github.com&#34;&gt;GitHub&lt;/a&gt; does decide that they don&amp;rsquo;t particularly want to be in the free hosting business I should be able to happily keep on blogging about my latest IT/Dev adventures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Life on the bleeding edge... bleeding</title>
+      <link>https://blog.uitlanders.com/posts/2015-05-03-life-on-the-bleeding-edge-bleeding/</link>
+      <pubDate>Sun, 03 May 2015 00:00:00 +0000</pubDate>
+      <guid>https://blog.uitlanders.com/posts/2015-05-03-life-on-the-bleeding-edge-bleeding/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://blog.uitlanders.com/assets/201505/03_01_DownloadAvailable.png&#34; alt=&#34;1i&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-start&#34;&gt;The start&lt;/h3&gt;&#xA;&lt;p&gt;Exciting times at the moment with the release of the RC for Visual Studio 2015 Community (&amp;amp; Enterprise Editions).  Since I&amp;rsquo;m normally technically curious I thought I&amp;rsquo;d &lt;a href=&#34;http://go.microsoft.com/fwlink/?LinkId=524433&#34;&gt;download&lt;/a&gt; and have a look.  Obviously the first step I took was to run&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;vs_community.exe /layout&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;via the commandline to allow downloading the complete installer (in case I want to re-install it later).  A few hours later in the morning before work I decided to kick off the install only to find out I did not have the required &lt;strong&gt;25GB&lt;/strong&gt; free space on my aging 120GB SSD.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-unnecessary-but-totally-justifiable-shopping-trip&#34;&gt;The unnecessary but totally justifiable shopping trip&amp;hellip;&lt;/h3&gt;&#xA;&lt;p&gt;My free space problem was easily solved by a short trip to &lt;a href=&#34;http://www.umart.com.au&#34;&gt;Umart&lt;/a&gt; to purchase a shiny new &lt;a href=&#34;http://www.amazon.com/gp/product/B00KFAGCWK/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B00KFAGCWK&amp;amp;linkCode=as2&amp;amp;tag=tmprestonblog-20&amp;amp;linkId=GPLYJEQRJPZ7D6AI&#34;&gt;Crucial MX100 256GB SSD&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://blog.uitlanders.com/assets/201505/03_02_MX100SSD.jpg&#34; alt=&#34;3b&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The next goal was to relocate my windows 8.1 installation from the old SSD to the new one.  My attempts to do this using the provided Acronis True Image software was unsuccessful and I didn&amp;rsquo;t have any luck with EaseUS Partition Master either.  Third time lucky with &lt;a href=&#34;http://clonezilla.org/downloads/download.php?branch=alternative&#34;&gt;Clonezilla&lt;/a&gt; which I turned to rather the resorting to a linux live cd and looking up the unfamiliar commandline arguments required. (I used the awesome &lt;a href=&#34;https://rufus.akeo.ie/&#34;&gt;Rufus&lt;/a&gt; to create a bootable USB stick because really who has a CD/DVD drive on their computer these days).&lt;/p&gt;&#xA;&lt;p&gt;Finally with some free space. &lt;img src=&#34;https://blog.uitlanders.com/assets/201505/03_03_Free_at_last.png&#34; alt=&#34;2i&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I completed my initial goal: Install Visual Studio 2015 Community.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://blog.uitlanders.com/assets/201505/03_04_Installing.png&#34; alt=&#34;3i&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;scope-creep&#34;&gt;Scope creep&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Technology&amp;hellip; is a queer thing. It brings you great gifts with one hand, and it stabs you in the back with the other.&lt;br /&gt;&#xA;&lt;cite&gt;Carrie Snow&lt;/cite&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Brisbane .Net Meetup April 2015</title>
+      <link>https://blog.uitlanders.com/posts/2015-04-21-brisbane-net-meetup---april/</link>
+      <pubDate>Tue, 21 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>https://blog.uitlanders.com/posts/2015-04-21-brisbane-net-meetup---april/</guid>
+      <description>&lt;p&gt;This month&amp;rsquo;s &lt;a href=&#34;http://www.meetup.com/Brisbane-Net-User-Group/events/221696495/&#34;&gt;.Net  Meetup&lt;/a&gt; was all the new things to see in Visual Studio 2015 and ALM 2015 - &lt;a href=&#34;http://www.adamcogan.com/&#34;&gt;Adam Cogan&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The talk covered a brief walk down memory lane including screenshots of each of the versions of Visual Studio since 2002.  Quite amazing to see exactly how much has changed.  No real discussion on how stability has greatly improved but some highly amusing discussions regarding the dreaded ALL CAPS MENUS&lt;img src=&#34;https://blog.uitlanders.com/assets/201504/201504_01_ALLCAPS.png&#34; alt=&#34;1i&#34;&gt;.&lt;/p&gt;&#xA;&lt;p&gt;There was a brief look at the impressive &lt;a href=&#34;http://azure.microsoft.com/en-us/documentation/articles/app-insights-windows-usage/&#34;&gt;App Insights&lt;/a&gt; which sadly doesn&amp;rsquo;t have an easy binding for WinForms meaning it may be some time before I&amp;rsquo;ll get to use it.&lt;/p&gt;&#xA;&lt;p&gt;Great relaxed atmosphere as usual and while the talk pointed out a few things that aren&amp;rsquo;t quite going to make it into the initial release we only covered half the topics.  I&amp;rsquo;ll be looking forward to next month and ASP.Net + .NET Core changes (provided son 1.0 doesn&amp;rsquo;t require my supervision).&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ll also try and remember to thank &lt;a href=&#34;http://paulstovell.com/&#34;&gt;Paul&lt;/a&gt; or someone from &lt;a href=&#34;http://octopusdeploy.com/&#34;&gt;Octopus&lt;/a&gt; as the free pizza is a life saver after missing lunch.&lt;/p&gt;&#xA;&lt;h3 id=&#34;psa&#34;&gt;PSA&lt;/h3&gt;&#xA;&lt;p&gt;Removing all caps can be achived by posting the following in Powershell or follow the original instructions on &lt;a href=&#34;http://stackoverflow.com/a/10859562&#34;&gt;stackoverflow&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h4 id=&#34;vs2012&#34;&gt;VS2012&lt;/h4&gt;&#xA;&lt;pre&gt;&lt;code&gt;Set-ItemProperty -Path HKCU:\Software\Microsoft\VisualStudio\11.0\General -Name SuppressUppercaseConversion -Type DWord -Value 1&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h4 id=&#34;vs2013&#34;&gt;VS2013&lt;/h4&gt;&#xA;&lt;pre&gt;&lt;code&gt;Set-ItemProperty -Path HKCU:\Software\Microsoft\VisualStudio\12.0\General -Name SuppressUppercaseConversion -Type DWord -Value 1&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;There&amp;rsquo;s also a menu option in VS2013 Update 3 if you&amp;rsquo;ve updated already.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World!</title>
+      <link>https://blog.uitlanders.com/posts/2015-03-03-hello-world/</link>
+      <pubDate>Tue, 03 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://blog.uitlanders.com/posts/2015-03-03-hello-world/</guid>
+      <description>&lt;p&gt;So in my ongoing quest to become a better developer I&amp;rsquo;ve decided I should be reading less and doing more.  Reading blogs has helped improved both my code and general development practices but ultimately I&amp;rsquo;m going to learn more by trying things out for myself.&lt;/p&gt;&#xA;&lt;p&gt;In the past my participation in side projects could be easily explained&amp;hellip;. &lt;img src=&#34;https://blog.uitlanders.com/assets/201503/Strip-Side-project-650-finalenglish.jpg&#34; alt=&#34;The side projects experience!&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This isn&amp;rsquo;t likely to change but I&amp;rsquo;ll be taking the time to upload some of these experiments/side projects to &lt;a href=&#34;http://www.github.com&#34;&gt;github&lt;/a&gt; (learning more git along the way) and hope that someone else can benefit from them too.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ll also be posting the odd troubleshooting tip when I come across particularly annoying or hard to track down issues.  Progress is likely to be slow initially due the arrival of son 1.0 but&amp;hellip;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A journey of a thousand miles begins with a single step&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;So here&amp;rsquo;s to writing more and learning some markdown ASAP. (Although this post itself is step 1).&lt;/p&gt;&#xA;&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;&#xA;&lt;p&gt;Comic image thanks to &lt;a href=&#34;http://www.commitstrip.com/en/2014/11/25/west-side-project-story/&#34;&gt;Commit Strip&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

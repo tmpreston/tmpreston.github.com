@@ -1,39 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Learn by doing!</title>
     <link>https://blog.uitlanders.com/tags/</link>
     <description>Recent content in Tags on Learn by doing!</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <managingEditor>tim.preston@uitlanders.com (tmpreston)</managingEditor>
-    <webMaster>tim.preston@uitlanders.com (tmpreston)</webMaster>
     <copyright>©2015-{year}, All Rights Reserved</copyright>
     <lastBuildDate>Tue, 02 May 2017 00:00:00 +0000</lastBuildDate>
-    
-        <atom:link href="https://blog.uitlanders.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
-      
-      <item>
-        <title>octopus</title>
-        <link>https://blog.uitlanders.com/tags/octopus/</link>
-        <pubDate>Tue, 02 May 2017 00:00:00 +0000</pubDate>
-        <author>tim.preston@uitlanders.com (tmpreston)</author>
-        <guid>https://blog.uitlanders.com/tags/octopus/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>conf</title>
-        <link>https://blog.uitlanders.com/tags/conf/</link>
-        <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
-        <author>tim.preston@uitlanders.com (tmpreston)</author>
-        <guid>https://blog.uitlanders.com/tags/conf/</guid>
-        <description></description>
-      </item>
-      
-    
+    <atom:link href="https://blog.uitlanders.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Octopus</title>
+      <link>https://blog.uitlanders.com/tags/octopus/</link>
+      <pubDate>Tue, 02 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://blog.uitlanders.com/tags/octopus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Conf</title>
+      <link>https://blog.uitlanders.com/tags/conf/</link>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://blog.uitlanders.com/tags/conf/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

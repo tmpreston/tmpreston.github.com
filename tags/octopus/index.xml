@@ -1,34 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>octopus on Learn by doing!</title>
+    <title>Octopus on Learn by doing!</title>
     <link>https://blog.uitlanders.com/tags/octopus/</link>
-    <description>Recent content in octopus on Learn by doing!</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Octopus on Learn by doing!</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <managingEditor>tim.preston@uitlanders.com (tmpreston)</managingEditor>
-    <webMaster>tim.preston@uitlanders.com (tmpreston)</webMaster>
     <copyright>©2015-{year}, All Rights Reserved</copyright>
     <lastBuildDate>Tue, 02 May 2017 00:00:00 +0000</lastBuildDate>
-    
-        <atom:link href="https://blog.uitlanders.com/tags/octopus/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
-      
-      <item>
-        <title>Restarting Tentacle</title>
-        <link>https://blog.uitlanders.com/posts/2017-05-02-restarting-tentacle/</link>
-        <pubDate>Tue, 02 May 2017 00:00:00 +0000</pubDate>
-        <author>tim.preston@uitlanders.com (tmpreston)</author>
-        <guid>https://blog.uitlanders.com/posts/2017-05-02-restarting-tentacle/</guid>
-        <description>Short post this time. I was reviewing the newsletter for Ocotopus Deploy and came across an article on automatically restarting Octopus Tentacle services.
-I liked the idea but as part of my automate all the things preference at the moment I thought it should be possible to do this without getting an GUI involved. Fortunately this is easily possible. Start a console/cmd session with suitable Administrator rights and type the following:
-sc failure &amp;quot;OctopusDeploy Tentacle&amp;quot; reset=0 actions= restart/0/restart/0/restart/0  This happily set the first / second / subsequent failure actions.
-sc config &amp;quot;OctopusDeploy Tentacle&amp;quot; start= delayed-auto  To set the startup to &amp;lsquo;Automatic (Delayed Start)&amp;rsquo;
-Hopefully this helps someone and/or makes me internet famous if it hits the Octopus Deploy newsletter!</description>
-      </item>
-      
-    
+    <atom:link href="https://blog.uitlanders.com/tags/octopus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Restarting Tentacle</title>
+      <link>https://blog.uitlanders.com/posts/2017-05-02-restarting-tentacle/</link>
+      <pubDate>Tue, 02 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://blog.uitlanders.com/posts/2017-05-02-restarting-tentacle/</guid>
+      <description>&lt;p&gt;Short post this time.  I was reviewing the newsletter for &lt;a href=&#34;https://octopus.com/&#34;&gt;Ocotopus Deploy&lt;/a&gt; and came across an article on &lt;a href=&#34;https://thaddparker.wordpress.com/2017/04/04/how-to-update-octopus-deploy-tentacle-to-restart-automatically/?__s=kv5pr8errbcsurcyn9np&#34;&gt;automatically restarting Octopus Tentacle services&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I liked the idea but as part of my &lt;em&gt;&lt;strong&gt;automate all the things&lt;/strong&gt;&lt;/em&gt; preference at the moment I thought it should be possible to do this without getting an GUI involved.  Fortunately this is easily possible.  Start a console/cmd session with suitable Administrator rights and type the following:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sc failure &amp;quot;OctopusDeploy Tentacle&amp;quot; reset=0 actions= restart/0/restart/0/restart/0&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;This happily set the first / second / subsequent failure actions.&lt;br /&gt;&#xA;&lt;img src=&#34;https://blog.uitlanders.com/assets/201705/0001_scfailure.png&#34; alt=&#34;1i&#34;&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sc config &amp;quot;OctopusDeploy Tentacle&amp;quot; start= delayed-auto&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;To set the startup to &amp;lsquo;Automatic (Delayed Start)&amp;rsquo;&lt;br /&gt;&#xA;&lt;img src=&#34;https://blog.uitlanders.com/assets/201705/0002_scconfig.png&#34; alt=&#34;2i&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hopefully this helps someone and/or makes me internet famous if it hits the &lt;a href=&#34;https://octopus.com/&#34;&gt;Octopus Deploy&lt;/a&gt; newsletter!  I might even check how hard it is to use the Ocotopus &lt;a href=&#34;https://octopus.com/docs/administration/script-console&#34;&gt;script console&lt;/a&gt; to run it.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;Update&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Script console worked well.  Just used the following powershell to update a bunch of tentacles.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#Enable automatic recovery of *Tentacle* services&#xA;$TentaclesServices = Get-Service | Where-Object {$_.name -like &amp;#39;*Tentacle*&amp;#39;}&#xA;foreach($Tentacle in $TentaclesServices) {&#xA;    Write-Host Update serivce options for : $Tentacle.Name&#xA;    Write-Host `tDelayed start...&#xA;    sc.exe config $Tentacle.Name start= delayed-auto&#xA;    Write-Host `tRecovery options...&#xA;    sc.exe failure $Tentacle.Name reset=0 actions= restart/0/restart/0/restart/0&#xA;    Write-Host &amp;#39;Complete&amp;#39;&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
   </channel>
 </rss>
