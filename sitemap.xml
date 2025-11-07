@@ -11,9 +11,6 @@
     <loc>https://blog.uitlanders.com/posts/2020-02-02-try-hugo/</loc>
     <lastmod>2020-02-02T21:50:25+10:00</lastmod>
   </url><url>
-    <loc>https://blog.uitlanders.com/contact/</loc>
-    <lastmod>2020-02-02T20:41:08+10:00</lastmod>
-  </url><url>
     <loc>https://blog.uitlanders.com/posts/2017-11-25-app-store-not-friends-with-ipv6/</loc>
     <lastmod>2017-11-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -54,6 +51,8 @@
     <lastmod>2015-03-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.uitlanders.com/categories/</loc>
+  </url><url>
+    <loc>https://blog.uitlanders.com/contact/</loc>
   </url><url>
     <loc>https://blog.uitlanders.com/series/</loc>
   </url>
