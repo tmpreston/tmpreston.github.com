@@ -1,191 +1,66 @@
-<!doctype html>
-
-
-
-
-
-
-
-<html
-  class="not-ready lg:text-base"
-  style="--bg:#faf8f1"
-  lang="en"
-  dir="ltr"
-><head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, shrink-to-fit=no"
-  />
-
-  
-  <title>You have chosen... - Learn by doing!</title>
-
-  
-  <meta name="theme-color" />
-
-  <meta name="description" content="
-It&rsquo;s been an interesting year at work.  I&rsquo;ve been hard at work on creating a cloud based offering of our application.  This wasn&rsquo;t something on the roadmap as the application was a thick client built on .NET in WinForms.  Recently cloud providers have been trying to ensure that they&rsquo;re able to migrate any and all software and so we ended up investigating a Azure RemoteApp.
-RemoteApp allowed us to take an application built for LAN/WAN deployment and without needing to make huge changes provide a service with very low initial costs (no expensive servers, no windows licensing &amp; no SQL licensing).  Having a Mac OS X, iOS and Android applications proved very popular.  The multiple options to accessing data (including the preview of the HTML5 client) was great and it&rsquo;s quite incredible seeing an application originally written in .NET 1.1 (and slowly migrated through the years) suddenly accessible on an iPhone.
-But sometimes good things must come to and end and Microsoft is shutting down RemoteApp.  There aren&rsquo;t many details available yet but hopefully the migration path proves easy to implement.  The existing processes to manage template images/collections (and even configuring drive redirection) weren&rsquo;t without issues,  (I had to switch from powershell to web API to workaround some quirks) but were definitely simpler than configuring/managing a complete desktop services environment (and having to come up with session management/tracking/pricing)
-On the plus side, I do feel like I&rsquo;ve finally managed a right of passage.
-LINQ to SQL (dodged)
-Silverlight (dodged)
-Azure RemoteApp &hellip;." />
-  <meta name="author" content="Learn by doing!" /><link rel="preload stylesheet" as="style" href="https://blog.uitlanders.com/main.min.css" />
-
-  
-  <link rel="preload" as="image" href="https://blog.uitlanders.com/theme.png" />
-
-  
-
-  
-
-  <script
-    defer
-    src="https://blog.uitlanders.com/highlight.min.js"
-    onload="hljs.initHighlightingOnLoad();"
-  ></script>
-
-  
-  <link
-    rel="icon"
-    href="https://blog.uitlanders.com/favicon.ico"
-  />
-  <link
-    rel="apple-touch-icon"
-    href="https://blog.uitlanders.com/apple-touch-icon.png"
-  />
-
-  <meta name="generator" content="Hugo 0.152.2">
-  <meta itemprop="name" content="You have chosen...">
-  <meta itemprop="description" content="It’s been an interesting year at work. I’ve been hard at work on creating a cloud based offering of our application. This wasn’t something on the roadmap as the application was a thick client built on .NET in WinForms. Recently cloud providers have been trying to ensure that they’re able to migrate any and all software and so we ended up investigating a Azure RemoteApp.
-RemoteApp allowed us to take an application built for LAN/WAN deployment and without needing to make huge changes provide a service with very low initial costs (no expensive servers, no windows licensing &amp; no SQL licensing). Having a Mac OS X, iOS and Android applications proved very popular. The multiple options to accessing data (including the preview of the HTML5 client) was great and it’s quite incredible seeing an application originally written in .NET 1.1 (and slowly migrated through the years) suddenly accessible on an iPhone.
-But sometimes good things must come to and end and Microsoft is shutting down RemoteApp. There aren’t many details available yet but hopefully the migration path proves easy to implement. The existing processes to manage template images/collections (and even configuring drive redirection) weren’t without issues, (I had to switch from powershell to web API to workaround some quirks) but were definitely simpler than configuring/managing a complete desktop services environment (and having to come up with session management/tracking/pricing)
-On the plus side, I do feel like I’ve finally managed a right of passage.
-LINQ to SQL (dodged)
-Silverlight (dodged)
-Azure RemoteApp ….">
-  <meta itemprop="datePublished" content="2016-09-05T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2016-09-05T00:00:00+00:00">
-  <meta itemprop="wordCount" content="252"><meta property="og:url" content="https://blog.uitlanders.com/posts/2016-09-05-you-have-chosen/">
-  <meta property="og:site_name" content="Learn by doing!">
-  <meta property="og:title" content="You have chosen...">
-  <meta property="og:description" content="It’s been an interesting year at work. I’ve been hard at work on creating a cloud based offering of our application. This wasn’t something on the roadmap as the application was a thick client built on .NET in WinForms. Recently cloud providers have been trying to ensure that they’re able to migrate any and all software and so we ended up investigating a Azure RemoteApp.
-RemoteApp allowed us to take an application built for LAN/WAN deployment and without needing to make huge changes provide a service with very low initial costs (no expensive servers, no windows licensing &amp; no SQL licensing). Having a Mac OS X, iOS and Android applications proved very popular. The multiple options to accessing data (including the preview of the HTML5 client) was great and it’s quite incredible seeing an application originally written in .NET 1.1 (and slowly migrated through the years) suddenly accessible on an iPhone.
-But sometimes good things must come to and end and Microsoft is shutting down RemoteApp. There aren’t many details available yet but hopefully the migration path proves easy to implement. The existing processes to manage template images/collections (and even configuring drive redirection) weren’t without issues, (I had to switch from powershell to web API to workaround some quirks) but were definitely simpler than configuring/managing a complete desktop services environment (and having to come up with session management/tracking/pricing)
-On the plus side, I do feel like I’ve finally managed a right of passage.
-LINQ to SQL (dodged)
-Silverlight (dodged)
-Azure RemoteApp ….">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2016-09-05T00:00:00+00:00">
-    <meta property="article:modified_time" content="2016-09-05T00:00:00+00:00">
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="You have chosen...">
-  <meta name="twitter:description" content="It’s been an interesting year at work. I’ve been hard at work on creating a cloud based offering of our application. This wasn’t something on the roadmap as the application was a thick client built on .NET in WinForms. Recently cloud providers have been trying to ensure that they’re able to migrate any and all software and so we ended up investigating a Azure RemoteApp.
-RemoteApp allowed us to take an application built for LAN/WAN deployment and without needing to make huge changes provide a service with very low initial costs (no expensive servers, no windows licensing &amp; no SQL licensing). Having a Mac OS X, iOS and Android applications proved very popular. The multiple options to accessing data (including the preview of the HTML5 client) was great and it’s quite incredible seeing an application originally written in .NET 1.1 (and slowly migrated through the years) suddenly accessible on an iPhone.
-But sometimes good things must come to and end and Microsoft is shutting down RemoteApp. There aren’t many details available yet but hopefully the migration path proves easy to implement. The existing processes to manage template images/collections (and even configuring drive redirection) weren’t without issues, (I had to switch from powershell to web API to workaround some quirks) but were definitely simpler than configuring/managing a complete desktop services environment (and having to come up with session management/tracking/pricing)
-On the plus side, I do feel like I’ve finally managed a right of passage.
-LINQ to SQL (dodged)
-Silverlight (dodged)
-Azure RemoteApp ….">
-
-  <link rel="canonical" href="https://blog.uitlanders.com/posts/2016-09-05-you-have-chosen/" />
-</head>
-<body
-    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
-  ><header
-  class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
->
-  <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
-    <a
-      class="-translate-y-[1px] text-2xl font-medium"
-      href="https://blog.uitlanders.com/"
-      >Learn by doing!</a
-    >
-    <div
-      class="btn-dark text-[0px] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
-      role="button"
-      aria-label="Dark"
-    ></div>
-  </div>
-
-  <div
-    class="btn-menu relative z-50 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden ltr:-mr-8 rtl:-ml-8"
-    role="button"
-    aria-label="Menu"
-  ></div>
-
-  <script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>You have chosen... | Learn by doing!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    const htmlClass = document.documentElement.classList;
-    setTimeout(() => {
-      htmlClass.remove('not-ready');
-    }, 10);
+      <link rel="stylesheet" href="/css/main.min.67a96de4f67272f6e87d26ed6a8a60f55d8da893a8409464544bad4cbaf6be92.css" integrity="sha256-Z6lt5PZycvbofSbtaopg9V2NqJOoQJRkVEutTLr2vpI=" crossorigin="anonymous">
 
     
-    const btnMenu = document.querySelector('.btn-menu');
-    btnMenu.addEventListener('click', () => {
-      htmlClass.toggle('open');
-    });
+        <script src="/js/main.bad0469675c3e45cf1a9fecdddf24ae6e0d117e20ca765a05251990c33d458f7.js" integrity="sha256-utBGlnXD5Fzxqf7N3fJK5uDRF&#43;IMp2WgUlGZDDPUWPc=" crossorigin="anonymous" defer></script>
 
-    
-    const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightBg = '#faf8f1'.replace(/"/g, '');
-    const setDark = (isDark) => {
-      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
-      htmlClass[isDark ? 'add' : 'remove']('dark');
-      localStorage.setItem('dark', isDark);
-    };
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-nav">
+        <div class="site-brand">
+          <a href="https://blog.uitlanders.com/">Learn by doing!</a>
+        </div>
+        <nav>
+          <ul class="site-menu">
+            
+              <li>
+                <a href="/posts" >
+                  posts
+                </a>
+              </li>
+            
+              <li>
+                <a href="/contact" >
+                  contact
+                </a>
+              </li>
+            
+          </ul>
+        </nav>
+        <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle color theme">
+          
+          <svg class="theme-icon theme-icon-sun" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+	          <path fill="currentColor" d="M12 16.5A4.505 4.505 0 0 1 7.5 12c0-2.481 2.019-4.5 4.5-4.5s4.5 2.019 4.5 4.5s-2.019 4.5-4.5 4.5" />
+	          <path fill="currentColor" fill-rule="evenodd" d="M12 3a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 12 3m6 9a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5M3 12a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2A.5.5 0 0 1 3 12m9 6a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2a.5.5 0 0 1 .5-.5m6.354-12.354a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708-.708l1.5-1.5a.5.5 0 0 1 .708 0m-10.5 10.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708-.708l1.5-1.5a.5.5 0 0 1 .708 0m-2.208-10.5a.5.5 0 0 1 .708 0l1.5 1.5a.5.5 0 1 1-.708.708l-1.5-1.5a.5.5 0 0 1 0-.708m10.5 10.5a.5.5 0 0 1 .708 0l1.5 1.5a.5.5 0 0 1-.708.708l-1.5-1.5a.5.5 0 0 1 0-.708" clip-rule="evenodd" />
+          </svg>
+          
+          <svg class="theme-icon theme-icon-moon"  width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+             <g fill="none" stroke="currentColor" stroke-width="1">
+              <path d="M20.434 13.934a6.5 6.5 0 0 1-7.367-7.367A6.501 6.501 0 0 0 14 19.5a6.5 6.5 0 0 0 6.433-5.566Z"/>
+              <path stroke-linecap="round" d="M4.5 8.75v1.5m.75-.75h-1.5m3.75-6v2m1-1h-2"/>
+            </g>
+          </svg>
+        </button>
+      </header>
 
-    
-    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
-    if (htmlClass.contains('dark')) {
-      setDark(true);
-    } else {
-      const darkVal = localStorage.getItem('dark');
-      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
-    }
+      <main class="site-main">
+        
+          <section class="glass-card">
+            
+  <h1>You have chosen...</h1>
 
-    
-    darkScheme.addEventListener('change', (event) => {
-      setDark(event.matches);
-    });
+  
+  
+  <time datetime="2016-09-05T00:00:00&#43;00:00">September 5, 2016</time>
 
-    
-    const btnDark = document.querySelector('.btn-dark');
-    btnDark.addEventListener('click', () => {
-      setDark(localStorage.getItem('dark') !== 'true');
-    });
-  </script>
-
-  <div
-    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"
-  ><nav
-      class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse"
-    ><a
-        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
-        href="posts"
-        >posts</a
-      ><a
-        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
-        href="contact"
-        >contact</a
-      ></nav>
-  </div>
-</header>
-<main
-      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
-    ><article>
-  <header class="mb-14">
-    <h1 class="my-0! pb-2.5">You have chosen...</h1><div class="text-xs antialiased opacity-60"><time>Sep 5, 2016</time></div></header>
-
-  <section><p><img src="/assets/201609/0001_youhavechosenpoorly.jpg" alt="1i"></p>
+  <p><img src="/assets/201609/0001_youhavechosenpoorly.jpg" alt="1i"></p>
 <p>It&rsquo;s been an interesting year at work.  I&rsquo;ve been hard at work on creating a cloud based offering of our application.  This wasn&rsquo;t something on the roadmap as the application was a thick client built on .NET in WinForms.  Recently cloud providers have been trying to ensure that they&rsquo;re able to migrate any and all software and so we ended up investigating a <a href="https://azure.microsoft.com/en-us/services/remoteapp/">Azure RemoteApp</a>.</p>
 <p>RemoteApp allowed us to take an application built for LAN/WAN deployment and without needing to make huge changes provide a service with very low initial costs (no expensive servers, no windows licensing &amp; no SQL licensing).  Having a Mac OS X, iOS and Android applications proved very popular.  The multiple options to accessing data (including the preview of the HTML5 client) was great and it&rsquo;s quite incredible seeing an application originally written in .NET 1.1 (and slowly migrated through the years) suddenly accessible on an iPhone.</p>
 <p>But sometimes good things must come to and end and Microsoft is <a href="https://blogs.technet.microsoft.com/enterprisemobility/2016/08/12/application-remoting-and-the-cloud/">shutting down RemoteApp</a>.  There aren&rsquo;t many details available yet but hopefully the migration path proves easy to implement.  The existing processes to manage template images/collections (and even configuring drive redirection) weren&rsquo;t without issues,  (I had to switch from powershell to web API to workaround some quirks) but were definitely simpler than configuring/managing a complete desktop services environment (and having to come up with session management/tracking/pricing)</p>
@@ -194,30 +69,23 @@ Azure RemoteApp ….">
 Silverlight (dodged)<br />
 Azure RemoteApp &hellip;.</p>
 <p><img src="/assets/201609/0002_achievement.gif" alt="2i"></p>
-</section>
 
-  <nav
-    class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg leading-[1.2]! *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
-  ><a class="ltr:pr-3 rtl:pl-3" href="https://blog.uitlanders.com/posts/2017-05-02-restarting-tentacle/"
-      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>Restarting Tentacle</span></a
-    ><a
-      class="justify-end pl-3 ltr:ml-auto rtl:mr-auto"
-      href="https://blog.uitlanders.com/posts/2016-01-06-ddd15/"
-      ><span>DDD Brisbane 0x5</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
-    ></nav></article></main><footer
-  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
->
-  <div class="mr-auto">©2015-2025, All Rights Reserved</div>
-  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
-    >powered by hugo️️</a
-  >️
-  <a
-    class="link"
-    href="https://github.com/nanxiaobei/hugo-paper"
-    rel="noopener"
-    target="_blank"
-    >hugo-paper</a
-  >
-</footer>
-</body>
+  
+
+  
+    <nav class="post-nav-fab" aria-label="Post navigation">
+      
+        <a class="post-nav-btn post-nav-prev" href="/posts/2016-01-06-ddd15/" aria-label="Previous post">&#8592;</a>
+      
+      
+        <a class="post-nav-btn post-nav-next" href="/posts/2017-05-02-restarting-tentacle/" aria-label="Next post">&#8594;</a>
+      
+    </nav>
+  
+
+          </section>
+        
+      </main>
+    </div>
+  </body>
 </html>
