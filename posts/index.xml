@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>©2015-2025, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 02 Feb 2020 21:50:25 +1000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 16:48:14 +1000</lastBuildDate>
     <atom:link href="https://blog.uitlanders.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why doesn’t AI always do what I want. Question.</title>
+      <link>https://blog.uitlanders.com/posts/2026-05-20-why-doesnt-ai/</link>
+      <pubDate>Wed, 20 May 2026 16:48:14 +1000</pubDate>
+      <guid>https://blog.uitlanders.com/posts/2026-05-20-why-doesnt-ai/</guid>
+      <description>&lt;p&gt;I asked Claude to &amp;ldquo;maybe take a look at renaming the variables in this file&amp;rdquo; and it renamed every variable in the file. That was Claude&amp;rsquo;s fault, sort of. Mostly it was mine.&lt;/p&gt;&#xA;&lt;p&gt;Modern AI doesn&amp;rsquo;t just answer anymore. It does things. Claude Code edits your repo. Claude in Chrome clicks buttons. ChatGPT&amp;rsquo;s agent mode books tickets. The polite English construction &amp;ldquo;could you maybe&amp;hellip;&amp;rdquo; used to be a request softener; now it&amp;rsquo;s a loaded firearm with the safety off.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-convention&#34;&gt;The convention&lt;/h2&gt;&#xA;&lt;p&gt;If you haven&amp;rsquo;t read the book (or seen the 2026 film, in which Ryan Gosling shares the screen with a five-legged puppet and somehow makes it work), the setup: human astronaut Ryland Grace and Eridian engineer Rocky have to save both their species from a planet-eating space mould. They speak different languages. Rocky&amp;rsquo;s language has no rising intonation, so questions and statements sound identical to him. Their fix is brutally simple — tag every utterance.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Your ship is broken, question.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;My ship is fine, statement.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Grace adopts it back. Within fifty pages it stops feeling weird and starts feeling like the most efficient communication protocol ever invented. Two words. No ambiguity.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-this-works-on-ai&#34;&gt;Why this works on AI&lt;/h2&gt;&#xA;&lt;p&gt;Tag every prompt.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Refactor the auth middleware to use cookies instead of headers. &lt;strong&gt;Statement.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;What would happen if I refactored the auth middleware to use cookies. &lt;strong&gt;Question.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;The first is a command. The second is research. They are completely different requests with completely different outputs, and &amp;ldquo;could you refactor the auth middleware&amp;rdquo; splits the difference badly enough that you usually get both — a half-explanation followed by an aggressive code change that you didn&amp;rsquo;t ask for, plus an offer to write tests you also didn&amp;rsquo;t ask for.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Try Hugo!</title>
       <link>https://blog.uitlanders.com/posts/2020-02-02-try-hugo/</link>
